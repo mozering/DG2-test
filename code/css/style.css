@@ -1,0 +1,172 @@
+body{font-family: 'Noto Sans KR', sans-serif;}
+.nav1 {display: flex; justify-content: space-between; padding-left: 0.5em; padding-right: 0.5em;}
+.close {font-size: 2.3em; }
+.number{font-size: 2.3em;}
+.classfication1 {display: flex;  padding-left: 0.5em; 
+	padding-right: 1em; margin-top: 1.3em; }
+.classfication1 p {font-size: 1.2em; margin-right: 10em; }
+.classfication2 {display: flex;  padding-left: 1em; 
+	padding-right: 1em; margin-top: 1em; margin-left: 17.3em; }
+.classfication2 p {font-size: 1.2em; margin-right: 13.5em; }
+.manual {margin-left: -3em;}
+.classfication3 {display: flex; margin-top: 3em; padding-left: 0.5em;}
+.name {font-size: 1.2em;  margin-right: 8.5em; }
+.text1 { font-size: 1em; line-height: 1.7em;}
+.text2 {width: 1250px; font-size: 1em; padding-left: 18em; margin-top: 1.5em; line-height: 1.6em; }
+.nav2{height: 100px; margin-top: 50px; display: flex; justify-content: space-between; padding: 0.5em; 
+padding-top: 1em;}
+.nav2 p {font-size: 2.3em;}
+.grotesk {
+font-family: neue-haas-grotesk-text, sans-serif;
+
+font-weight: 500;
+
+font-style: normal;
+
+}
+.color {margin-left: -1.7em;}
+.signname {margin-left: -1.3em;}
+.bar {width: 3%; position: relative; left: 49%; top:300px;}
+.roadsign {width: 30%; position: relative; top: -550px; left: 35%; z-index: 10; filter: drop-shadow(10px 10px 10px #fff)}
+.textsign {width: 30%; position: relative; top: -500px; left: 35%;filter: drop-shadow(10px 10px 10px #fff) }
+.stoplogo {width: 7%; position: relative; top: -350px; left: 73%;}
+.signnumber {font-size: 2em; position: relative; top: -440px; left: 81.5%;}
+.nav3{height: 100px; margin-top: 50px; padding: 0.5em; padding-top: 1.5em; position: relative; top: -400px; }
+.nav3 p {font-size: 2.8em;}
+.rolling {position: relative; top: -400px;}
+.nav4{height: 100px; margin-top: 50px; padding: 0.5em; padding-top: 1.5em; position: relative; top: -455px; }
+.nav4 p {font-size: 2.8em;}
+.nav5{height: 100px; margin-top: 50px; padding: 0.5em; padding-top: 1.5em; position: relative; top: -535px;}
+.nav5 p {font-size: 2.8em;}
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 1500px;
+  overflow: hidden;
+  
+  background-color: black;
+  top: -470px;
+}
+
+.slider .slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  font-size: 20px;
+
+  opacity: 0;
+  cursor: pointer;
+}
+
+.slider .slide h2 {
+  margin-bottom: 10px;
+  margin-top: 60px;
+}
+
+.slider .slide img {width: 70%; padding-top: 10%;}
+.slider .slide.active { opacity: 1; }
+
+.slider .slide:nth-child(1) { background-color: black; }
+
+.slider .slide:nth-child(2) { background-color:  black; }
+
+.applicationimg {position: relative; top: -540px;}
+
+.application {height: 390px;}
+
+ a:link { color: black; text-decoration: none;}
+ a:visited { color: black; text-decoration: none;}
+ a:hover { color: black; text-decoration: none;}
+
+
+.nav6{height: 100px; margin-top: 50px; padding: 0.5em; padding-top: 1.5em; position: relative; top: 0px;}
+.nav6 p {font-size: 2em;}
+
+
+.slider2 {
+  position: relative;
+  width: 100%;
+  height: 1000px;
+  overflow: hidden;
+  top: -470px;
+}
+
+.slider2 .slide2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  font-size: 20px;
+
+  opacity: 0;
+  cursor: pointer;
+}
+
+.slider2 .slide2 h2 {
+  margin-bottom: 10px;
+  margin-top: 60px;
+}
+
+.slider2 .slide2 img {width: 70%; }
+.slider2 .slide2.active { opacity: 1; }
+
+.slider2 .slide2:nth-child(1) {}
+
+.slider2 .slide2:nth-child(2) { }
+
+.mainnav {display: flex; padding-left: 0.5em; padding-right: 0.5em;justify-content: space-between; padding-top: 0.5em;}
+.mainnav p {font-size: 1.8em;}
+.about {margin-left: 3em;}
+.hyperpro {background-color: black; height: 1.8em; margin-top: 0.5em;}
+.marquee {
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  height: 20px;
+  overflow-x: hidden;
+}
+
+.track {
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 13s linear infinite;
+}
+
+@keyframes marquee {
+  from { transform: translateX(-50%); }
+  to { transform: translateX(0); }
+}
+.content {color: white; font-size: 1em; padding-top: 0.3em;}
+
+.marquee2 {
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  height: 1600px;
+  overflow-x: hidden;
+}
+
+.track2 {
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee2 13s linear infinite;
+}
+
+@keyframes marquee2 {
+  from { transform: translateX(0%); }
+  to { transform: translateX(-50%); }
+}
+.content2 {font-size: 15em;}
+
