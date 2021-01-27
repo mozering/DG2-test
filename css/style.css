@@ -86,7 +86,7 @@ font-style: normal;
 
 
 .nav6{height: 100px; margin-top: 50px; padding: 0.5em; padding-top: 1.5em; position: relative; top: 100px;}
-.nav6 p {font-size: 2em; text-align: center;}
+.nav6 p {font-size: 2em; }
 
 
 .slider2 {
@@ -170,3 +170,7 @@ font-style: normal;
 }
 .content2 {font-size: 18em;}
 
+.cursor {position: absolute;
+left: 0;
+top: 0;
+z-index: 999999;}

@@ -4,13 +4,30 @@
 <link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-	<script src="js/index.js"></script>
+	<script src="js/cursor.js"></script>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://use.typekit.net/kyf6czh.css">
+
 	<title>main</title>
 </head>
+<script type="text/javascript">
+	$(document).ready(function(){
+
+	$(document).mousemove(function(e){
+		var mouseX = e.pageX;
+		var mouseY = e.pageY;
+		$(".cursor").css({
+			left:mouseX+"px",
+			top:mouseY+"px"
+		});
+
+	});
+
+});
+</script>
 <body>
+	<div class="cursor"><img src="img/logo.png"></div>
 <div class="mainnav grotesk">
 	<p class="main">Digital Graphic 2020-2</p>
 	<p class="about">About</p>
