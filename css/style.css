@@ -170,6 +170,7 @@ font-style: normal;
 }
 .content2 {font-size: 18em; position: relative; top: -22px;}
 
+.detail {z-index: 9999999;}
 .cursor {position: absolute;
 left: 0;
 top: 0;
