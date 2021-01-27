@@ -140,7 +140,7 @@ font-style: normal;
   position: absolute;
   white-space: nowrap;
   will-change: transform;
-  animation: marquee 13s linear infinite;
+  animation: marquee 35s linear infinite;
 }
 
 @keyframes marquee {
@@ -161,7 +161,7 @@ font-style: normal;
   position: absolute;
   white-space: nowrap;
   will-change: transform;
-  animation: marquee2 30s linear infinite;
+  animation: marquee2 35s linear infinite;
 }
 
 @keyframes marquee2 {
