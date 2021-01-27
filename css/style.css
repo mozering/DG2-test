@@ -161,12 +161,12 @@ font-style: normal;
   position: absolute;
   white-space: nowrap;
   will-change: transform;
-  animation: marquee2 13s linear infinite;
+  animation: marquee2 20s linear infinite;
 }
 
 @keyframes marquee2 {
   from { transform: translateX(0%); }
   to { transform: translateX(-50%); }
 }
-.content2 {font-size: 20em;}
+.content2 {font-size: 18em;}
 
