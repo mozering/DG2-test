@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	<script src="js/index.js"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.typekit.net/ytq7dsr.css">
+	<title>Lee Myeong Seo</title>
+</head>
+<body>
+<div OnClick="location.href ='page22.html'" style="cursor:pointer;" >
+<div class="nav1">
+	<div class="close grotesk"><a href="index.html"><p>Close</p></a></div> 
+	<div class="number grotesk"><p>21/29</p></div>
+</div>
+<div class="classfication1 grotesk">
+	<div><p>Road Sign</p></div>
+	<div><p>Warning signs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></div>
+	<div class=manual><p>Manual</p></div>
+</div>
+<div class="classfication2 grotesk">
+	<div><p>511</p></div>
+	<div><p>AA-192860-37</p></div>
+</div>
+<div class="classfication3">
+	<div class="name grotesk" style="margin-right: 7.8em;"><p>Lee Myeong Seo</p></div>
+	<div class="text1"><p>인스타에서 왜곡되어 보여지는것들을 경계해야 한다. <br>
+우리 사회는 인스타그램 속 과잉 보정과 왜곡으로 인한 잘못된 정보를 사실처럼 받아들이는 사람들이 늘어나고 있다.<br> 
+많은 사람이 사용하는 인기 있는 SNS 중 하나인 인스타그램 속에서 자신들의 기업, 제품 홍보를 위해 거짓된 정보를 인스타그램에 올려 <br>
+사람들에게 알려주거나, 매크로 프로그램을 사용해 팔로워, '좋아요' 수를 늘린 가짜 영향력자들이 활개를 치기도 한다. <br>
+또한 '좋아요'를 받기 위해 자신들의 삶을 자극적이고 원색적으로 포장한 게시물을 올리기도 한다. <br>
+가벼운 마음으로 즐기는 인스타그램 속에서 이러한 왜곡된 모습들은 너무나도 쉽게 일상 속에 받아들여진다.<br>
+</p></div>
+</div>
+<div class="text2 grotesk" style="padding-left: 18.2em;">
+	<p>In our society, more and more people are accepting false information due to over-correction on Instagram as if it were true. On Instagram, one of the popular social networking sites used by many people, false information is posted on Instagram to promote their companies and products, and fake influencers who use macro programs to increase the number of followers and 'likes' are also active.They also post provocative and raw packages of their lives to get 'likes'. In Instagram, enjoyed with a light heart, these distorted images are easily accepted into everyday life.</p>
+</div>
+
+<div class="sign">
+	<div class="nav2 grotesk">
+		<p>Road Sign</p>
+		<p class="signname">Warning signs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+		<p class="color">White/Red</p>
+		<p>511 AA-192860-37</p>
+	</div>
+	<div class="signimg">
+		<div class="bar"><img src="img/roadsignbar.png"></div>
+		<div class="roadsign"><img src="img/pictogram/21pictorgram.png"></div>
+		<div class="textsign"><img src="img/text/21text.png"></i></div>
+		<div class="stoplogo"><img src="img/stop.png"></div>
+		<div class="signnumber grotesk"><p>511<br>AA-192860-37</p></div>
+	</div>
+</div>
+	<div class="nav3 grotesk">
+		<p>Object</p>
+	</div>
+	<div class="rolling"><img src="img/rolling/21rolling.gif"></div>
+		<div class="nav4 grotesk">
+		<p>Manual</p>
+	</div>
+</div>
+<div id="jquery-script-menu">
+<div class="jquery-script-center">
+<ul>
+
+<div class="jquery-script-ads"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div class="jquery-script-clear"></div>
+</div>
+</div>
+
+<div class="slider">
+  <div class="slide active">
+    <img src="img/manual/21manual1.jpg">
+
+  </div>
+  <div class="slide">
+    <img src="img/manual/21manual2.jpg">
+ 
+  </div>
+</div>
+
+<div class="application">
+	<div class="nav5 grotesk">
+		<p>Application</p>
+	</div>
+	<div class="slider2">
+  <div class="slide2 active2">
+    <img src="img/application/21application1.jpg">
+
+  </div>
+</div>
+</div>
+
+<div class="last">
+	<div class="nav6 grotesk">
+		<p>All Content © 2020-2 DG HKNU</p>
+	</div>
+</div>	
+</div>
+</body>
+</html>
+
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script> 
+<script>
+$(document).ready(function () {
+    $('.slider').on('click', function () {
+        if ($('.active').next('.slide').length) {
+            $('.active').removeClass('active').next('.slide').addClass('active');
+        } else {
+            $('.active').removeClass('active');
+            $('.slide').first().addClass('active');
+        }
+    });
+});
+$(document).ready(function () {
+    $('.slider2').on('click', function () {
+        if ($('.active2').next('.slide2').length) {
+            $('.active2').removeClass('active2').next('.slide2').addClass('active2');
+        } else {
+            $('.active2').removeClass('active2');
+            $('.slide2').first().addClass('active2');
+        }
+    });
+});
+</script>

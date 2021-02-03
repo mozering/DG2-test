@@ -4,23 +4,21 @@ body{font-family: 'Noto Sans KR', sans-serif;}
 .number{font-size: 2.3em;}
 .classfication1 {display: flex;  padding-left: 0.5em; 
 	padding-right: 1em; margin-top: 1.3em; }
-.classfication1 p {font-size: 1.2em; margin-right: 10em; }
+.classfication1 p {font-size: 1.2em; margin-right: 10.7em; }
 .classfication2 {display: flex;  padding-left: 1em; 
 	padding-right: 1em; margin-top: 1em; margin-left: 17.3em; }
 .classfication2 p {font-size: 1.2em; margin-right: 13.5em; }
 .manual {margin-left: -3em;}
 .classfication3 {display: flex; margin-top: 3em; padding-left: 0.5em;}
-.name {font-size: 1.2em;  margin-right: 8.5em; }
+.name {font-size: 1.2em;  margin-right: 9.0em; }
 .text1 { font-size: 1em; line-height: 1.7em;}
 .text2 {width: 1250px; font-size: 1em; padding-left: 18em; margin-top: 1.5em; line-height: 1.6em; }
 .nav2{height: 100px; margin-top: 50px; display: flex; justify-content: space-between; padding: 0.5em; 
 padding-top: 1em;}
 .nav2 p {font-size: 2.3em;}
 .grotesk {
-font-family: neue-haas-grotesk-text, sans-serif;
-
+font-family: neue-haas-grotesk-display,sans-serif;
 font-weight: 500;
-
 font-style: normal;
 
 }
@@ -118,11 +116,17 @@ font-style: normal;
 }
 
 .slider2 .slide2 img {width: 70%; }
-.slider2 .slide2.active { opacity: 1; }
+.slider2 .slide2.active2 { opacity: 1; }
 
-.slider2 .slide2:nth-child(1) {}
+.slider2 .slide2:nth-child(1) {background-color: white;}
 
-.slider2 .slide2:nth-child(2) { }
+.slider2 .slide2:nth-child(2) {background-color: white;}
+.slider2 .slide2:nth-child(3) {background-color: white;}
+
+.slider2 .slide2:nth-child(4) {background-color: white;}
+.slider2 .slide2:nth-child(5) {background-color: white;}
+
+.slider2 .slide2:nth-child(6) {background-color: white;}
 
 .mainnav {display: flex; padding-left: 0.5em; padding-right: 0.5em;justify-content: space-between; padding-top: 0.5em;}
 .mainnav p {font-size: 1.8em;}
@@ -153,7 +157,7 @@ font-style: normal;
   position: relative;
   width: 100vw;
   max-width: 100%;
-  height: 1600px;
+  height: 400px;
   overflow-x: hidden;
 }
 
@@ -169,11 +173,62 @@ font-style: normal;
   to { transform: translateX(-50%); }
 }
 .content2 {font-size: 18em; position: relative; top: -22px;}
-
+.main{z-index: 9999999;}
 .detail {z-index: 9999999;}
 .cursor {position: absolute;
 left: 0;
 top: 0;
-z-index: 999999;
 width: 200px;
 height: 100px;}
+
+.firstbox{height: 1080px;}
+.indextext{display: flex; margin-top: 30px;margin-left: 1em;  line-height: 5.4em;} 
+.indextext p {font-size: 4.5em;}
+.left {margin-right: 5em;}
+.indextext2{display: flex; margin-top: 0.3em;margin-left: 1em;  line-height: 5.4em;} 
+.indextext2 p {font-size: 4.5em;}
+.left2 {margin-right: 7.6em;}
+.left3 {margin-right: 5.6em;}
+.indextext3{display: flex; margin-top: 130px;margin-left: 1em;  line-height: 5.4em;} 
+.indextext3 p {font-size: 4.5em;}
+.left4 {margin-right: 4.8em;}
+.indextext4{display: flex; margin-top: 130px;margin-left: 0.4em;  line-height: 5.4em;} 
+.indextext4 img{width: 5%;}
+.indextext4 p {font-size: 4.5em;}
+.left5 {margin-right: 8em; margin-left: 0.2em;}
+.indextext5{display: flex; margin-top: 0.3em;margin-left: 5.7em;  line-height: 5.4em;} 
+.indextext5 p {font-size: 4.5em;}
+.left6 {margin-right: 8.1em;}
+.indextext6{display: flex; margin-top: 0.3em;margin-left: 5.7em;  line-height: 5.4em;} 
+.indextext6 p {font-size: 4.5em;}
+.left7 {margin-right: 8.7em;}
+.indextext7{display: flex; margin-top: 130px;margin-left: 1em;  line-height: 5.4em;} 
+.indextext7 p {font-size: 4.5em;}
+.left8 {margin-right: 6.2em;}
+.indextext8{display: flex; margin-top: 0.3em;margin-left: 1em;  line-height: 5.4em;} 
+.indextext8 p {font-size: 4.6em;}
+.left9 {margin-right: 5.8em;}
+.left10 {margin-right: 3.6em;}
+.indextext9{display: flex; margin-top: 130px;margin-left: 1em;  line-height: 5.4em;} 
+.indextext9 p {font-size: 4.6em;}
+.indextext9 img {width: 40%; position: relative; bottom: 5em; left: 1em;}
+.indextext10{display: flex; margin-top: 0px;margin-left: 1em;  line-height: 5.4em;} 
+.indextext10 p {font-size: 4.6em;}
+.indextext11{display: flex; margin-top: 150px;margin-left: 45em;  line-height: 5.4em;} 
+.indextext11 p {font-size: 4.6em;}
+.indextext12{display: flex; margin-top: 130px;margin-left: 1em;  line-height: 5.4em;} 
+.indextext12 p {font-size: 4.6em;}
+.left11 {margin-right: 5.3em;}
+.left12 {margin-right: 7.5em; margin-left: 0.2em;}
+.left13 {margin-right: 7.3em;}
+.left14 {margin-right: 6.6em;}
+.left15 {margin-right: 6.9em;}
+.left16 {margin-right: 7.2em;}
+.left17 {margin-right: 7em;}
+.Hankyong {display: flex; margin-top: 0.3em; margin-left: 1em;line-height: 4em; }
+.Hankyong p {font-size: 2.8em; justify-content: space-between;}
+.Hankyong img {width: 20%; position: relative; bottom: 2em;}
+.aboutflex{display: flex; margin-left: 1em; margin-top: 3em; justify-content: space-between;}
+.aboutp {font-size: 2.8em; margin-left: 0.3em;}
+.flexbox1 {width: 49%;}
+.flexbox2 {font-size: 1.6em; width: 49%; line-height: 145%}

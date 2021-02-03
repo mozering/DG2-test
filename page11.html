@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	<script src="js/index.js"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.typekit.net/ytq7dsr.css">
+	<title>Ryu Seung Hee</title>
+</head>
+<body>
+<div OnClick="location.href ='page12.html'" style="cursor:pointer;" >
+<div class="nav1">
+	<div class="close grotesk"><a href="index.html"><p>Close</p></a></div> 
+	<div class="number grotesk"><p>11/29</p></div>
+</div>
+<div class="classfication1 grotesk">
+	<div><p>Road Sign</p></div>
+	<div><p>Warning signs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></div>
+	<div class=manual><p>Manual</p></div>
+</div>
+<div class="classfication2 grotesk">
+	<div><p>507</p></div>
+	<div><p>AA-192860-19</p></div>
+</div>
+<div class="classfication3">
+	<div class="name grotesk"style="margin-right: 8.3em;"><p>Ryu Seung Hee</p></div>
+	<div class="text1"><p>기사의 본질을 흐리는 광고는 없어져야 한다.<br>
+우리 사회는 인터넷기사의 광고 과생산으로 인해, 기사를 읽고자 하는 이들이 기사보다 광고를 먼저 지워야하는 불편함이 생겼다. <br>
+시간이 지남에 따라 사람들이 기사를 접하는 매체가 신문에서 핸드폰으로 변화했다. 핸드폰의 화면에서 무작위로 뜨는 광고들은 <br>
+화면을 가려 기사를 제대로 읽지도 못하고, x표를 찾기도 어렵다. <br>
+선정적인 기사들에 계속 노출된 사람들은 적극적으로 사회에 참여하고, 관심을 가지지 않게 된다. <br>
+</p></div>
+</div>
+<div class="text2 grotesk">
+	<p>TIn our society, due to the overproduction of advertisements in Internet articles, it has become inconvenient for those who want to read articles to delete advertisements before articles.Over time, the medium by which people read articles has changed from newspapers to mobile phones.Advertisements that appear randomly on the screen of a mobile phone can not read articles properly because they cover the screen, and it is difficult to find X marks. People who continue to be exposed to sensational articles become actively involved in society and lose interest.</p>
+</div>
+
+<div class="sign">
+	<div class="nav2 grotesk">
+		<p>Road Sign</p>
+		<p class="signname">Warning signs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+		<p class="color">Yellow/Black</p>
+		<p>507 AA-192860-19</p>
+	</div>
+	<div class="signimg">
+		<div class="bar"><img src="img/roadsignbar.png"></div>
+		<div class="roadsign"><img src="img/pictogram/11pictorgram.png"></div>
+		<div class="textsign"><img src="img/text/11text.png"></i></div>
+		<div class="stoplogo"><img src="img/stop.png"></div>
+		<div class="signnumber grotesk"><p>507<br>AA-192860-19</p></div>
+	</div>
+</div>
+<div class="nav3 grotesk">
+		<p>Object</p>
+	</div>
+	<div class="rolling"><img src="img/rolling/11rolling.gif"></div>
+		<div class="nav4 grotesk">
+		<p>Manual</p>
+	</div>
+</div>
+<div id="jquery-script-menu">
+<div class="jquery-script-center">
+<ul>
+
+<div class="jquery-script-ads"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div class="jquery-script-clear"></div>
+</div>
+</div>
+
+<div class="slider">
+  <div class="slide active">
+    <img src="img/manual/11manual1.jpg">
+
+  </div>
+  <div class="slide">
+    <img src="img/manual/11manual2.jpg">
+ 
+  </div>
+</div>
+
+<div class="application">
+	<div class="nav5 grotesk">
+		<p>Application</p>
+	</div>
+	<div class="slider2">
+  <div class="slide2 active2">
+    <img src="img/application/11application1.jpg">
+
+  </div>
+  <div class="slide2">
+    <img src="img/application/11application2.jpg">
+ 
+  </div>
+    <div class="slide2">
+    <img src="img/application/11application3.jpg">
+ 
+  </div>
+    <div class="slide2">
+    <img src="img/application/11application4.jpg">
+ 
+  </div>
+  
+</div>
+</div>
+
+<div class="last">
+	<div class="nav6 grotesk">
+		<p>All Content © 2020-2 DG HKNU</p>
+	</div>
+</div>	
+</div>
+</body>
+</html>
+
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script> 
+<script>
+$(document).ready(function () {
+    $('.slider').on('click', function () {
+        if ($('.active').next('.slide').length) {
+            $('.active').removeClass('active').next('.slide').addClass('active');
+        } else {
+            $('.active').removeClass('active');
+            $('.slide').first().addClass('active');
+        }
+    });
+});
+$(document).ready(function () {
+    $('.slider2').on('click', function () {
+        if ($('.active2').next('.slide2').length) {
+            $('.active2').removeClass('active2').next('.slide2').addClass('active2');
+        } else {
+            $('.active2').removeClass('active2');
+            $('.slide2').first().addClass('active2');
+        }
+    });
+});
+</script>
+
