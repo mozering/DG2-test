@@ -205,6 +205,9 @@ height: 100px;}
 .left6 {margin-right: 8.1em;}
 .indextext6{display: flex; margin-top: 0.3em;margin-left: 5.7em;  line-height: 5.4em;} 
 .indextext6 p {font-size: 4.5em;}
+.indextextnew {display: flex; margin-top: 130px;margin-left: 1em;  line-height: 5.4em;}
+.indextextnew p {font-size: 4.5em;}
+.leftnew {margin-right: 7.6em;}
 .left7 {margin-right: 8.7em;}
 .indextext7{display: flex; margin-top: 130px;margin-left: 1em;  line-height: 5.4em;} 
 .indextext7 p {font-size: 4.5em;}
@@ -235,10 +238,20 @@ height: 100px;}
 .aboutflex{display: flex; margin-left: 1em; margin-top: 3em; justify-content: space-between;}
 .aboutp {font-size: 2.8em; margin-left: 0.3em;}
 .flexbox1 {width: 49%;}
-.flexbox2 {font-size: 1.6em; width: 49%; line-height: 145%}
+.flexbox2 {font-size: 1.4em; width: 49%; line-height: 123%}
 .last {display: flex; margin-left: 0.3em; justify-content: space-between; font-size: 3em;}
-
-
+.hknu {font-size: 2.8em; margin-left: 0.3em;}
+.stage1 {font-size: 18em; margin-top: 150px; margin-left: 10px;}
+.stage1 img {width: 48%; margin-left: 730px; margin-bottom: 70px;}
+.stage1rule {font-size: 18em; margin-left: 10px;}
+.humanmade {font-size: 2.5em; margin-left: 0.7em;}
+.ruleimg {width: 70%;}
+.ruleimg2 {width: 75%;}
+.ruleimg3 {width: 90%; margin-left: 20px;}
+.bigtext {font-size: 18em; display: flex; justify-content: space-between; margin-top: 70px;}
+.pa1 {width: 80%; margin-top: 70px; margin-left: 10%; }
+.pa2 {width: 78%; margin-top: 70px; margin-left: 10%; margin-top: 3%;  }
+.stage2img{width: 80%; margin-left: 10%; margin-bottom: 120px;}
 @media only screen and (min-width: 1824px) {
   .slider {
   position: relative;
@@ -273,55 +286,57 @@ height: 100px;}
 .mainnav p {font-size: 2.8em;}
 .indextext{display: flex; margin-top: 30px;margin-left: 1em;  line-height: 6.4em;} 
 .indextext p {font-size: 5.5em;}
-.left {margin-right: 8em;}
+.left {margin-right: 7em;}
 .indextext2{display: flex; margin-top: 0.3em;margin-left: 1em;  line-height: 6.4em;} 
 .indextext2 p {font-size: 5.5em;}
-.left2 {margin-right: 10.6em;}
-.left3 {margin-right: 8.6em;}
+.left2 {margin-right: 9.6em;}
+.left3 {margin-right: 7.6em;}
 .indextext3{display: flex; margin-top: 130px;margin-left: 1em;  line-height: 6.4em;} 
 .indextext3 p {font-size: 5.5em;}
-.left4 {margin-right: 7.8em;}
+.left4 {margin-right: 6.8em;}
 .indextext4{display: flex; margin-top: 130px;margin-left: 0.4em;  line-height: 6.4em;} 
 .indextext4 img{width: 5%;}
 .indextext4 p {font-size: 5.5em;}
-.left5 {margin-right: 11em; margin-left: 0.2em;}
+.left5 {margin-right: 10em; margin-left: 0.2em;}
 .indextext5{display: flex; margin-top: 0.3em;margin-left: 7.3em;  line-height: 6.4em;} 
 .indextext5 p {font-size: 5.5em;}
-.left6 {margin-right: 11.1em;}
+.left6 {margin-right: 10.1em;}
 .indextext6{display: flex; margin-top: 0.3em;margin-left: 7.3em;  line-height: 6.4em;} 
 .indextext6 p {font-size: 5.5em;}
-.left7 {margin-right: 11.7em;}
+.left7 {margin-right: 10.7em;}
+.indextextnew {display: flex; margin-top: 130px;margin-left: 1.3em;  line-height: 6.4em;}
+.indextextnew p {font-size: 5.5em;}
+.leftnew {margin-right: 9.6em;}
 .indextext7{display: flex; margin-top: 130px;margin-left: 1em;  line-height: 6.4em;} 
 .indextext7 p {font-size: 5.5em;}
-.left8 {margin-right: 9.2em;}
+.left8 {margin-right: 8.3em;}
 .indextext8{display: flex; margin-top: 0.3em;margin-left: 1em;  line-height: 6.4em;} 
 .indextext8 p {font-size: 5.6em;}
-.left9 {margin-right: 8.8em;}
-.left10 {margin-right: 6.6em;}
+.left9 {margin-right: 7.9em;}
+.left10 {margin-right: 5.7em;}
 .indextext9{display: flex; margin-top: 130px;margin-left: 1em;  line-height: 6.4em; justify-content: space-between;} 
 .indextext9 p {font-size: 5.6em;}
 .indextext9 img {width: 40%; position: relative; bottom: 5em; left: 1em; padding-right: 20px;}
 .indextext10{display: flex; margin-top: 0px;margin-left: 1em;  line-height: 6.4em;} 
 .indextext10 p {font-size: 5.6em;}
-.indextext11{display: flex; margin-top: 150px;margin-left: 72em;  line-height: 6.4em;} 
+.indextext11{display: flex; margin-top: 150px;margin-left: 66em;  line-height: 6.4em;} 
 .indextext11 p {font-size: 5.6em;}
 .indextext12{display: flex; margin-top: 130px;margin-left: 1em;  line-height: 6.4em;} 
 .indextext12 p {font-size: 5.6em;}
-.left11 {margin-right: 8.3em;}
-.left12 {margin-right: 10.5em; margin-left: 0.2em;}
-.left13 {margin-right: 10.3em;}
-.left14 {margin-right: 9.6em;}
-.left15 {margin-right: 9.9em;}
-.left16 {margin-right: 10.2em;}
-.left17 {margin-right: 10em;}
+.left11 {margin-right: 7.3em;}
+.left12 {margin-right: 9.5em; margin-left: 0.2em;}
+.left13 {margin-right: 9.3em;}
+.left14 {margin-right: 8.6em;}
+.left15 {margin-right: 8.9em;}
+.left16 {margin-right: 9.2em;}
+.left17 {margin-right: 9em;}
 .Hankyong {display: flex; margin-top: 0.3em; margin-left: 1em;line-height: 5em; justify-content: space-between; width: 100%; margin-bottom: 150px;}
 .Hankyong p {font-size: 3.8em;}
 .Hankyong img {width: 20%;  bottom: 2em; margin-right: 2em;}
 .aboutflex{display: flex; margin-left: 1em; margin-top: 3em; justify-content: space-between;}
 .aboutp {font-size: 3.8em; margin-left: 0.3em;}
 .flexbox1 {width: 49%;}
-.flexbox2 {font-size: 2em; width: 49%; line-height: 145%}
+.flexbox2 {font-size: 1.9em; width: 49%; line-height: 121%}
 .last {display: flex; margin-left: 0.3em; justify-content: space-between; font-size: 4em;}
-.hknu {font-size: 3.8em; margin-left: 0.3em; }
+.hknu {font-size: 3.8em; margin-left: 0.3em;}
 }
-.hknu {font-size: 2.8em; margin-left: 0.3em;}
