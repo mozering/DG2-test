@@ -177,6 +177,28 @@ font-style: normal;
   to { transform: translateX(-50%); }
 }
 .content2 {font-size: 18em; position: relative; top: -22px;}
+
+.marquee3 {
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  height: 400px;
+  overflow-x: hidden;
+   overflow-y: hidden;
+}
+
+.track3 {
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee3 35s linear infinite;
+}
+
+@keyframes marquee3 {
+   from { transform: translateX(-50%); }
+  to { transform: translateX(0); }
+}
+.content3 {font-size: 18em; position: relative; top: -22px;}
 .main{z-index: 9999999;}
 .detail {z-index: 9999999;}
 .cursor {position: absolute;
@@ -245,8 +267,8 @@ height: 100px;}
 .stage1 img {width: 48%; margin-left: 730px; margin-bottom: 70px;}
 .stage1rule {font-size: 18em; margin-left: 10px;}
 .humanmade {font-size: 2.5em; margin-left: 0.7em;}
-.ruleimg {width: 70%;}
-.ruleimg2 {width: 75%;}
+.ruleimg {width: 70%; margin-left: 20px;}
+.ruleimg2 {width: 77%; margin-left: 20px;}
 .ruleimg3 {width: 90%; margin-left: 20px;}
 .bigtext {font-size: 18em; display: flex; justify-content: space-between; margin-top: 70px;}
 .pa1 {width: 80%; margin-top: 70px; margin-left: 10%; }
