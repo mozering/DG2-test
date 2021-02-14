@@ -163,6 +163,7 @@ font-style: normal;
   height: 400px;
   overflow-x: hidden;
    overflow-y: hidden;
+    margin-bottom: 3%;
 }
 
 .track2 {
@@ -185,6 +186,7 @@ font-style: normal;
   height: 400px;
   overflow-x: hidden;
    overflow-y: hidden;
+     margin-bottom: 3%;
 }
 
 .track3 {
@@ -261,7 +263,7 @@ height: 100px;}
 .aboutp {font-size: 2.8em; margin-left: 0.3em;}
 .flexbox1 {width: 49%;}
 .flexbox2 {font-size: 1.4em; width: 49%; line-height: 123%}
-.last {display: flex; margin-left: 0.3em; justify-content: space-between; font-size: 3em;}
+.last {display: flex; margin-left: 0.3em; justify-content: space-between; font-size: 1.5em;}
 .hknu {font-size: 2.8em; margin-left: 0.3em;}
 .stage1 {font-size: 18em; margin-top: 150px; margin-left: 10px;}
 .stage1 img {width: 48%; margin-left: 730px; margin-bottom: 70px;}
@@ -270,10 +272,23 @@ height: 100px;}
 .ruleimg {width: 70%; margin-left: 20px;}
 .ruleimg2 {width: 77%; margin-left: 20px;}
 .ruleimg3 {width: 90%; margin-left: 20px;}
-.bigtext {font-size: 18em; display: flex; justify-content: space-between; margin-top: 70px;}
+.bigtext {font-size: 18em; display: flex; margin-top: 70px;}
 .pa1 {width: 80%; margin-top: 70px; margin-left: 10%; }
 .pa2 {width: 78%; margin-top: 70px; margin-left: 10%; margin-top: 3%;  }
 .stage2img{width: 80%; margin-left: 10%; margin-bottom: 120px;}
+.signflexbox {display: flex; margin-left: 1em; margin-top: 2em; justify-content: space-between; margin-right: 1em;margin-bottom: 4%;}
+.signflex1 {width: 51%; }
+.signflex2 {font-size: 2em; position: relative;}
+.signflex3 {font-size: 2em;}
+.signp {font-size: 2em; margin-left: 1em;margin-bottom: 4%;}
+.stage3 {z-index: 1;}
+.grotesk {z-index: 1;}
+.indexlink {font-size: 2em; margin-left: 1em; display: flex; flex-direction:column;}
+.indexlink a:hover {color: blue;}
+.linkimg {width: 30%; float: right; margin-right: 3%; position: relative; visibility: hidden;}
+.linkimgmake0 {top: 0%; position: absolute;}
+.imgactive {visibility: visible;}
+
 @media only screen and (min-width: 1824px) {
   .slider {
   position: relative;
@@ -361,4 +376,140 @@ height: 100px;}
 .flexbox2 {font-size: 1.9em; width: 49%; line-height: 121%}
 .last {display: flex; margin-left: 0.3em; justify-content: space-between; font-size: 4em;}
 .hknu {font-size: 3.8em; margin-left: 0.3em;}
+}
+@media only screen and (min-width: 2400px) {
+  .slider {
+  position: relative;
+  width: 100%;
+  height: 2300px;
+  overflow: hidden;
+  
+  background-color: black;
+  top: -470px;}
+.content {color: white; font-size: 2em; padding-top: 0.3em;}
+.hyperpro {background-color: black; height: 3em; margin-top: 0.5em;}
+.content2 {font-size: 28em; position: relative; top: -22px;}
+.marquee2 {
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  height: 500px;
+  overflow-x: hidden;
+   overflow-y: hidden;
+}
+
+.marquee {
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  height: 60px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.content3 {font-size: 28em; position: relative; top: -22px;}
+.marquee3 {
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  height: 500px;
+  overflow-x: hidden;
+   overflow-y: hidden;
+}
+
+
+
+.roadsign {width: 30%; position: relative; top: -800px; left: 37%; z-index: 10; filter: drop-shadow(10px 10px 10px #fff)}
+.bar {width: 3%; position: relative; left: 50%; top:500px;}
+.textsign {width: 30%; position: relative; top: -700px; left: 37%;filter: drop-shadow(10px 10px 10px #fff) }
+.signnumber {font-size: 2em; position: relative; top: -470px; left: 81.5%;}
+.close {font-size: 3em; }
+.number{font-size: 3em;}
+.classfication1 p {font-size: 2.2em; margin-right: 10.5em; }
+.classfication2 p {font-size: 2.2em; margin-right: 13.5em; }
+.classfication2 {display: flex;  padding-left: 1em; 
+  padding-right: 1em; margin-top: 1em; margin-left: 32em; }
+  .name {font-size: 2.2em;  margin-right: 9.0em; }
+  .text1 { font-size: 1.4em; line-height: 1.7em;}
+  .text2 {width: 1920px; font-size: 1.7em; padding-left: 19.5em; margin-top: 1.5em; line-height: 1.6em; }
+.nav2 p {font-size: 3.3em;}
+  .nav3 p {font-size: 3.8em;}
+  .signnumber {font-size: 3em; position: relative; top: -480px; left: 81.5%;}
+  .nav4 p {font-size: 3.8em;}
+.nav4{height: 100px; margin-top: 50px; padding: 0.5em; position: relative; top: -455px; }
+.nav5 p {font-size: 3.8em;}
+.nav6{height: 100px; margin-top: 50px; padding: 0.5em; padding-top: 1.5em; top: 300px;}
+.nav6 p {font-size: 2em; }
+.mainnav p {font-size: 3.8em;}
+.indextext{display: flex; margin-top: 430px;margin-left: 1em;  line-height: 7.4em;} 
+.indextext p {font-size: 6.5em;}
+.left {margin-right: 7em;}
+.indextext2{display: flex; margin-top: 0.3em;margin-left: 1em;  line-height: 7.4em;} 
+.indextext2 p {font-size: 6.5em;}
+.left2 {margin-right: 9.6em;}
+.left3 {margin-right: 7.6em;}
+.indextext3{display: flex; margin-top: 130px;margin-left: 1em;  line-height: 7.4em;} 
+.indextext3 p {font-size: 6.5em;}
+.left4 {margin-right: 6.9em;}
+.indextext4{display: flex; margin-top: 130px;margin-left: 0.4em;  line-height: 7.4em;} 
+.indextext4 img{width: 5%;}
+.indextext4 p {font-size: 6.5em;}
+.left5 {margin-right: 10em; margin-left: 0.2em;}
+.indextext5{display: flex; margin-top: 0.3em;margin-left: 9.8em;  line-height: 7.4em;} 
+.indextext5 p {font-size: 6.5em;}
+.left6 {margin-right: 10em;}
+.indextext6{display: flex; margin-top: 0.3em;margin-left: 9.8em;  line-height: 7.4em;} 
+.indextext6 p {font-size: 6.5em;}
+.left7 {margin-right: 10.6em;}
+.indextextnew {display: flex; margin-top: 130px;margin-left: 1.3em;  line-height: 7.4em;}
+.indextextnew p {font-size: 6.5em;}
+.leftnew {margin-right: 9.6em;}
+.indextext7{display: flex; margin-top: 130px;margin-left: 1em;  line-height: 7.4em;} 
+.indextext7 p {font-size: 6.5em;}
+.left8 {margin-right: 8.3em;}
+.indextext8{display: flex; margin-top: 0.3em;margin-left: 1em;  line-height: 7.4em;} 
+.indextext8 p {font-size: 6.6em;}
+.left9 {margin-right: 7.9em;}
+.left10 {margin-right: 5.7em;}
+.indextext9{display: flex; margin-top: 130px;margin-left: 1em;  line-height: 7.4em; justify-content: space-between;} 
+.indextext9 p {font-size: 6.6em;}
+.indextext9 img {width: 40%; position: relative; bottom: 5em; left: 1em; padding-right: 20px;}
+.indextext10{display: flex; margin-top: 0px;margin-left: 1em;  line-height: 7.4em;} 
+.indextext10 p {font-size: 6.6em;}
+.indextext11{display: flex; margin-top: 150px;margin-left: 77em;  line-height: 7.4em;} 
+.indextext11 p {font-size: 6.6em;}
+.indextext12{display: flex; margin-top: 130px;margin-left: 1em;  line-height: 7.4em;} 
+.indextext12 p {font-size: 6.6em;}
+.left11 {margin-right: 7.3em;}
+.left12 {margin-right: 9.5em; margin-left: 0.2em;}
+.left13 {margin-right: 9.3em;}
+.left14 {margin-right: 8.6em;}
+.left15 {margin-right: 8.9em;}
+.left16 {margin-right: 9.2em;}
+.left17 {margin-right: 9em;}
+.Hankyong {display: flex; margin-top: 0.3em; margin-left: 1em;line-height: 6em; justify-content: space-between; width: 100%; margin-bottom: 150px;}
+.Hankyong p {font-size: 4.8em;}
+.Hankyong img {width: 20%;  bottom: 2em; margin-right: 2em;}
+.aboutflex{display: flex; margin-left: 1em; margin-top: 3em; justify-content: space-between;}
+.aboutp {font-size: 5.8em; margin-left: 0.3em;}
+.flexbox1 {width: 49%;}
+.flexbox2 {font-size: 2.6em; width: 49%; line-height: 121%}
+.last {display: flex; margin-left: 0.3em; justify-content: space-between; font-size: 1.5em;}
+.hknu {font-size: 3.8em; margin-left: 0.3em;}
+.stage1 {font-size: 24em; margin-top: 150px; margin-left: 10px;}
+.stage1 img {width: 50%; margin-left: 1250px; margin-bottom: 70px;}
+.stage1rule {font-size: 24em; margin-left: 10px;}
+.humanmade {font-size: 4.8em; margin-left: 0.7em;}
+.ruleimg {width: 70%; margin-left: 20px; margin-bottom: 10%;}
+.ruleimg2 {width: 77%; margin-left: 20px;margin-bottom: 10%;}
+.ruleimg3 {width: 90%; margin-left: 20px;margin-bottom: 7%;}
+.bigtext {font-size: 24em; display: flex; justify-content: space-between; margin-top: 70px;margin-bottom: 7%;}
+.pa1 {width: 80%; margin-top: 70px; margin-left: 10%; margin-bottom: 7%;}
+.pa2 {width: 78%; margin-top: 70px; margin-left: 10%; margin-top: 3%; margin-bottom: 7%; }
+.stage2img{width: 80%; margin-left: 10%; margin-bottom: 120px;}
+.signflexbox {display: flex; margin-left: 1em; margin-top: 2em; justify-content: space-between; margin-right: 2em;margin-bottom: 3%;}
+.signflex1 {width: 51%; }
+.signflex2 {font-size: 3.4em; position: relative;}
+.signflex3 {font-size: 3.4em;}
+.signp {font-size: 3.4em; margin-left: 1em;}
+.indexlink {font-size: 3.4em; margin-left: 1em; display: flex; flex-direction:column;}
 }
