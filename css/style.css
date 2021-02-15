@@ -1,4 +1,4 @@
-body{font-family: 'Noto Sans KR', sans-serif;}
+body{font-family: 'Noto Sans KR', sans-serif; overflow:initial;}
 .nav1 {display: flex; justify-content: space-between; padding-left: 0.5em; padding-right: 0.5em;}
 .close {font-size: 2.3em; }
 .number{font-size: 2.3em;}
@@ -207,7 +207,8 @@ font-style: normal;
 left: 0;
 top: 0;
 width: 200px;
-height: 100px;}
+height: 100px;
+z-index: 2;}
 
 .firstbox{height: 1080px;}
 .indextext{display: flex; margin-top: 30px;margin-left: 1em;  line-height: 5.4em;} 
@@ -272,7 +273,7 @@ height: 100px;}
 .ruleimg {width: 70%; margin-left: 20px;}
 .ruleimg2 {width: 77%; margin-left: 20px;}
 .ruleimg3 {width: 90%; margin-left: 20px;}
-.bigtext {font-size: 18em; display: flex; margin-top: 70px;}
+.bigtext {font-size: 18em; display: flex; margin-top: 70px; justify-content: space-between;}
 .pa1 {width: 80%; margin-top: 70px; margin-left: 10%; }
 .pa2 {width: 78%; margin-top: 70px; margin-left: 10%; margin-top: 3%;  }
 .stage2img{width: 80%; margin-left: 10%; margin-bottom: 120px;}
@@ -286,7 +287,7 @@ height: 100px;}
 .indexlink {font-size: 2em; margin-left: 1em; display: flex; flex-direction:column;}
 .indexlink a:hover {color: blue;}
 .linkimg {width: 30%; float: right; margin-right: 3%; position: relative; visibility: hidden;}
-.linkimgmake0 {top: 0%; position: absolute;}
+.linkimgmake0 {top: 27%; position: fixed; width: 30%;}
 .imgactive {visibility: visible;}
 
 @media only screen and (min-width: 1824px) {
