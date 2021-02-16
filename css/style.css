@@ -313,15 +313,26 @@ z-index: 2;}
     transform:scale(1.2);
 }
 
-.roadsignindex {margin-top: 7%; position: relative;}
-.roadsigntext {display: flex; justify-content:center; position: relative; bottom: 92%; width: 100%; 
-  margin-left: 0.5%; font-size: 1em; flex-wrap: wrap; z-index: 9999999;}
-.everylogo {display: flex;justify-content: space-around; flex-wrap: wrap; margin-left: 3%; margin-top: -45%;}
+.roadsignindex {top: 7%; position: relative; margin-bottom: 7%;}
+  ol {list-style: none; padding: 0; padding-left: 0.5em; }
+  .test1 {display: flex; font-size: 1em; justify-content: space-between; 
+    position: absolute; top: 22%; width: 100%; z-index: 99999;}
+  .testbox1 {width: 14.2%; }
+  .testbox2 {width: 8.8%; }
+  .testbox3 {width: 7.8%; }
+  .testbox4 {width: 9.3%; }
+  .testbox5 {width: 12%;}
+  .testbox6{width: 13.5%; }
+  .testbox7 {width: 11%; }
+  .testbox8 {width: 8%;}
+  .testbox9 {width: 15.4%;}
+
+.everylogo {display: flex;justify-content: space-around; flex-wrap: wrap; margin-left: 3%; }
 .everylogo img {width: 80%; margin-bottom: 3%; }
 .textalign {text-align: center;}
 .everything {width: 20%;font-size: 1.3em;  }
 .marginbottom {margin-bottom: 4%;}
-.popupimg {width: 50%; position: relative; float: center; margin-right: 3%; position: relative; margin-left: 25%; bottom: 970%;
+.popupimg {width: 48%; position: absolute;  margin-left: 25%; top: 24%;
   visibility:hidden; }
 .linkimgmake1 {top: 0%; position: absolute; width: 100%; }
 .popuplink1 { z-index: 9999999;}
@@ -413,9 +424,7 @@ z-index: 2;}
 .flexbox2 {font-size: 1.9em; width: 49%; line-height: 121%}
 .last {display: flex; margin-left: 0.3em; justify-content: space-between; font-size: 4em;}
 .hknu {font-size: 3.8em; margin-left: 0.3em;}
-.roadsigntext {font-size: 1.5em; bottom: 88%;}
-.everylogo {margin-top: -41%; }
-.popupimg {bottom: 800%;}
+.test1 { font-size: 1.4em;}
 }
 
 @media only screen and (min-width: 2400px) {
@@ -553,9 +562,8 @@ z-index: 2;}
 .signflex3 {font-size: 3.4em;}
 .signp {font-size: 3.4em; margin-left: 1em;}
 .indexlink {font-size: 3.4em; margin-left: 1em; display: flex; flex-direction:column;}
-.roadsigntext {font-size: 2em; bottom: 88%}
-.everything {width: 20%;font-size: 2.3em;  }
-.popupimg { bottom: 830%;}
+
 
 .slider{height: 2800px;}
+.test1 { font-size: 2em;}
 }
