@@ -257,7 +257,8 @@ z-index: 2;}
 .left15 {margin-right: 6.9em;}
 .left16 {margin-right: 7.2em;}
 .left17 {margin-right: 7em;}
-.Hankyong {display: flex; margin-top: 0.3em; margin-left: 1em;line-height: 4em; justify-content: space-between; width: 100%; margin-bottom: 150px;}
+.Hankyong {display: flex; margin-top: 0.3em; margin-left: 1em;line-height: 4em; 
+  justify-content: space-between; width: 100%; margin-bottom: 150px; flex-wrap: wrap;}
 .Hankyong p {font-size: 2.8em;}
 .Hankyong img {width: 20%;  bottom: 2em; margin-right: 2em;}
 .aboutflex{display: flex; margin-left: 1em; margin-top: 3em; justify-content: space-between;}
@@ -313,13 +314,17 @@ z-index: 2;}
 }
 
 .roadsignindex {margin-top: 7%; position: relative;}
-.roadsigntext {display: flex; justify-content:center; position: absolute; top: 24%; width: 100%; 
-  margin-left: 0.5%; font-size: 1.1em; flex-wrap: wrap;}
-.everylogo {display: flex;justify-content: space-around; flex-wrap: wrap; margin-top: 4%; margin-left: 3%;margin-bottom: 7%; }
+.roadsigntext {display: flex; justify-content:center; position: relative; bottom: 92%; width: 100%; 
+  margin-left: 0.5%; font-size: 1em; flex-wrap: wrap; z-index: 9999999;}
+.everylogo {display: flex;justify-content: space-around; flex-wrap: wrap; margin-left: 3%; margin-top: -45%;}
 .everylogo img {width: 80%; margin-bottom: 3%; }
 .textalign {text-align: center;}
 .everything {width: 20%;font-size: 1.3em;  }
 .marginbottom {margin-bottom: 4%;}
+.popupimg {width: 50%; position: relative; float: center; margin-right: 3%; position: relative; margin-left: 25%; bottom: 970%;
+  visibility:hidden; }
+.linkimgmake1 {top: 0%; position: absolute; width: 100%; }
+.popuplink1 { z-index: 9999999;}
 
 @media only screen and (min-width: 1824px) {
   .slider {
@@ -408,7 +413,9 @@ z-index: 2;}
 .flexbox2 {font-size: 1.9em; width: 49%; line-height: 121%}
 .last {display: flex; margin-left: 0.3em; justify-content: space-between; font-size: 4em;}
 .hknu {font-size: 3.8em; margin-left: 0.3em;}
-.roadsigntext {font-size: 1.4em;}
+.roadsigntext {font-size: 1.5em; bottom: 88%;}
+.everylogo {margin-top: -41%; }
+.popupimg {bottom: 800%;}
 }
 
 @media only screen and (min-width: 2400px) {
@@ -546,6 +553,9 @@ z-index: 2;}
 .signflex3 {font-size: 3.4em;}
 .signp {font-size: 3.4em; margin-left: 1em;}
 .indexlink {font-size: 3.4em; margin-left: 1em; display: flex; flex-direction:column;}
-.roadsigntext {font-size: 2em;}
+.roadsigntext {font-size: 2em; bottom: 88%}
 .everything {width: 20%;font-size: 2.3em;  }
+.popupimg { bottom: 830%;}
+
+.slider{height: 2800px;}
 }
