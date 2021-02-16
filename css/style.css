@@ -271,9 +271,9 @@ z-index: 2;}
 .stage1 img {width: 48%; margin-left: 730px; margin-bottom: 70px;}
 .stage1rule {font-size: 18em; margin-left: 10px;}
 .humanmade {font-size: 2.5em; margin-left: 0.7em;}
-.ruleimg {width: 70%; margin-left: 20px; margin-bottom: 10%; margin-top: 2%;}
-.ruleimg2 {width: 77%; margin-left: 20px;margin-bottom: 10%;}
-.ruleimg3 {width: 90%; margin-left: 20px;margin-bottom: 7%;}
+.ruleimg {width: 70%; margin-left: 1.5em; margin-bottom: 10%; margin-top: 2%;}
+.ruleimg2 {width: 77%; margin-left: 1.5em;margin-bottom: 10%;}
+.ruleimg3 {width: 90%; margin-left: 0.3em;margin-bottom: 7%;}
 .bigtext {font-size: 18em; display: flex; margin-top: 70px; justify-content: space-between;}
 .pa1 {width: 80%; margin-top: 70px; margin-left: 10%; }
 .pa2 {width: 78%; margin-top: 70px; margin-left: 10%; margin-top: 3%;  }
@@ -289,9 +289,9 @@ z-index: 2;}
 .linkimg {width: 30%; float: right; margin-right: 3%; position: relative; visibility: hidden;}
 .linkimgmake0 {top: 0%; position: absolute; width: 100%;}
 .imgactive {visibility: visible;}
-.pa1 {display: flex; justify-content: space-between; align-items: center;}
-.sero {width: 8.2%; height: 11%;}
-.garo {width: 11%; height: 8.2%; }
+.pa1 {display: flex; justify-content: center; align-items: center;}
+.sero {width: 12.3%; height: 16.5%;}
+.garo {width: 16.5%; height: 12.3%; }
 .closeimage{z-index: 999999; }
 .closeimage  img { width: 100%;
 
@@ -333,7 +333,7 @@ z-index: 2;}
 .textalign {text-align: center;}
 .everything {width: 20%;font-size: 1.3em;  }
 .marginbottom {margin-bottom: 4%;}
-.popupimg {width: 48%; position: absolute;  margin-left: 25%; top: 24%;
+.popupimg {width: 40%; position: absolute;  margin-left: 30%; top: 33%;
   visibility:hidden; }
 .linkimgmake1 {top: 0%; position: absolute; width: 100%; }
 .popuplink1 { z-index: 9999999;}
@@ -425,7 +425,8 @@ z-index: 2;}
 .flexbox2 {font-size: 1.9em; width: 49%; line-height: 121%}
 .last {display: flex; margin-left: 0.3em; justify-content: space-between; font-size: 4em;}
 .hknu {font-size: 3.8em; margin-left: 0.3em;}
-.test1 { font-size: 1.4em;}
+.test1 {     font-size: 1.5em;
+    line-height: 134%;}
 }
 
 @media only screen and (min-width: 2400px) {
