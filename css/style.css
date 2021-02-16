@@ -286,12 +286,6 @@ z-index: 2;}
 .stage3 {z-index: 1;}
 .grotesk {z-index: 1;}
 .indexlink {font-size: 2em; margin-left: 1em; display: flex; flex-direction:column;}
-.indexlink a:hover {animation: color-change 1s;}
-@keyframes color-change {
-  0% { color: black; }
-  50% { color: white; }
-  100% { color: black; }
-}
 .linkimg {width: 30%; float: right; margin-right: 3%; position: relative; visibility: hidden;}
 .linkimgmake0 {top: 27%; position: fixed; width: 30%;}
 .imgactive {visibility: visible;}
@@ -556,8 +550,8 @@ z-index: 2;}
 .stage1 img {width: 50%; margin-left: 1250px; margin-bottom: 70px;}
 .stage1rule {font-size: 24em; margin-left: 10px;}
 .humanmade {font-size: 4.8em; margin-left: 0.7em;}
-.ruleimg {width: 70%; margin-left: 20px; margin-bottom: 10%;}
-.ruleimg2 {width: 77%; margin-left: 20px;margin-bottom: 10%;}
+.ruleimg {margin-left: 20px; }
+.ruleimg2 { margin-left: 20px;}
 .ruleimg3 {width: 90%; margin-left: 20px;margin-bottom: 7%;}
 .bigtext {font-size: 24em; display: flex; justify-content: space-between; margin-top: 70px;margin-bottom: 7%;}
 .pa1 {width: 80%; margin-top: 70px; margin-left: 10%; margin-bottom: 7%;}
