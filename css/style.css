@@ -2,17 +2,17 @@ body{font-family: 'Noto Sans KR', sans-serif; overflow:initial;}
 .nav1 {display: flex; justify-content: space-between; padding-left: 0.5em; padding-right: 0.5em;}
 .close {font-size: 2.3em; }
 .number{font-size: 2.3em;}
-.classfication1 {display: flex;  padding-left: 0.5em; 
-	padding-right: 1em; margin-top: 1.3em; }
-.classfication1 p {font-size: 1.2em; margin-right: 10.5em; }
-.classfication2 {display: flex;  padding-left: 1em; 
-	padding-right: 1em; margin-top: 1em; margin-left: 17.3em; }
-.classfication2 p {font-size: 1.2em; margin-right: 13.5em; }
+.classfication1 {display: flex;  margin-top: 1.3em; justify-content: space-around; width: 100%; }
+.classfication1 p {font-size: 1.2em; }
+.classfication2 {display: flex;  margin-top: 1em; margin-left: 26.2%; }
+.classficationbaby {width: 25%;margin-right: 5.4%; }
+.classfication2 p {font-size: 1.2em;  }
 .manual {margin-left: -3em;}
 .classfication3 {display: flex; margin-top: 3em; padding-left: 0.5em;}
-.name {font-size: 1.2em;  margin-right: 9.0em; }
-.text1 { font-size: 1em; line-height: 1.7em;}
-.text2 {width: 1250px; font-size: 1.1em; padding-left: 16.8em; margin-top: 1.5em; line-height: 1.6em; }
+.name {font-size: 1.2em; position: relative;}
+.text1 { font-size: 1em; line-height: 1.7em; position: absolute; left: 26%;}
+.text2 {width: 1000px; font-size: 1.1em;  margin-top: 210px; line-height: 1.6em; position: relative; 
+left: 26.6%}
 .nav2{height: 100px; margin-top: 50px; display: flex; justify-content: space-between; padding: 0.5em; 
 padding-top: 1em;}
 .nav2 p {font-size: 2.3em;}
@@ -211,6 +211,7 @@ height: 100px;
 z-index: 2;}
 
 .firstbox{height: 1080px;}
+.secondbox 
 .indextext{display: flex; margin-top: 30px;margin-left: 1em;  line-height: 5.4em;} 
 .indextext p {font-size: 4.5em;}
 .left {margin-right: 5em;}
@@ -225,7 +226,7 @@ z-index: 2;}
 .indextext4 img{width: 5%;}
 .indextext4 p {font-size: 4.5em;}
 .left5 {margin-right: 8em; margin-left: 0.2em;}
-.indextext5{display: flex; margin-top: 0.3em;margin-left: 5.7em;  line-height: 5.4em;} 
+.indextext5{display: flex; margin-top: 0.3em;  line-height: 5.4em;} 
 .indextext5 p {font-size: 4.5em;}
 .left6 {margin-right: 8.1em;}
 .indextext6{display: flex; margin-top: 0.3em;margin-left: 5.7em;  line-height: 5.4em;} 
@@ -242,7 +243,7 @@ z-index: 2;}
 .left9 {margin-right: 5.8em;}
 .left10 {margin-right: 3.6em;}
 .indextext9{display: flex; margin-top: 130px;margin-left: 1em;  line-height: 5.4em; justify-content: space-between;} 
-.indextext9 p {font-size: 4.6em;}
+.indextext9 p {font-size: 3.6em;}
 .indextext9 img {width: 40%; position: relative; bottom: 5em; left: 1em; padding-right: 20px;}
 .indextext10{display: flex; margin-top: 0px;margin-left: 1em;  line-height: 5.4em;} 
 .indextext10 p {font-size: 4.6em;}
@@ -251,7 +252,7 @@ z-index: 2;}
 .indextext12{display: flex; margin-top: 130px;margin-left: 1em;  line-height: 5.4em;} 
 .indextext12 p {font-size: 4.6em;}
 .left11 {margin-right: 5.3em;}
-.left12 {margin-right: 7.5em; margin-left: 0.2em;}
+.left12 {margin-right: 7.5em; margin-left: 1.6%;}
 .left13 {margin-right: 7.3em;}
 .left14 {margin-right: 6.6em;}
 .left15 {margin-right: 6.9em;}
@@ -333,10 +334,14 @@ z-index: 2;}
 .textalign {text-align: center;}
 .everything {width: 20%;font-size: 1.3em;  }
 .marginbottom {margin-bottom: 4%;}
-.popupimg {width: 40%; position: absolute;  margin-left: 30%; top: 33%;
+.popupimg {width: 40%; position: absolute;  margin-left: 30%; top: 31%;
   visibility:hidden; }
 .linkimgmake1 {top: 0%; position: absolute; width: 100%; }
 .popuplink1 { z-index: 9999999;}
+.textmargin {margin-left: 5.7%;}
+.arrow {width: 3%; padding-left: 0.5%;}
+.signmargin {margin-left: -16%;}
+.flexbox25{width: 25%;}
 
 @media only screen and (min-width: 1824px) {
   .slider {
@@ -354,13 +359,11 @@ z-index: 2;}
 .signnumber {font-size: 2em; position: relative; top: -470px; left: 81.5%;}
 .close {font-size: 3em; }
 .number{font-size: 3em;}
-.classfication1 p {font-size: 2.2em; margin-right: 10.5em; }
-.classfication2 p {font-size: 2.2em; margin-right: 13.5em; }
-.classfication2 {display: flex;  padding-left: 1em; 
-  padding-right: 1em; margin-top: 1em; margin-left: 32em; }
-  .name {font-size: 2.2em;  margin-right: 9.0em; }
+.classfication1 p {font-size: 2.2em; }
+.classfication2 p {font-size: 2.2em;  }
+  .name {font-size: 2.2em; }
   .text1 { font-size: 1.4em; line-height: 1.7em;}
-  .text2 {width: 1920px; font-size: 1.7em; padding-left: 19.5em; margin-top: 1.5em; line-height: 1.6em; }
+  .text2 {width: 1420px; font-size: 1.7em; line-height: 1.6em; margin-top: 280px; }
 .nav2 p {font-size: 3.3em;}
   .nav3 p {font-size: 3.8em;}
   .signnumber {font-size: 3em; position: relative; top: -480px; left: 81.5%;}
@@ -383,13 +386,13 @@ z-index: 2;}
 .indextext4{display: flex; margin-top: 130px;margin-left: 0.4em;  line-height: 6.4em;} 
 .indextext4 img{width: 5%;}
 .indextext4 p {font-size: 5.5em;}
-.left5 {margin-right: 10em; margin-left: 0.2em;}
-.indextext5{display: flex; margin-top: 0.3em;margin-left: 7.3em;  line-height: 6.4em;} 
+.left5 {margin-right: 10.2em; margin-left: 0.2em;}
+.indextext5{display: flex; margin-top: 0.3em; line-height: 6.4em;} 
 .indextext5 p {font-size: 5.5em;}
-.left6 {margin-right: 10.1em;}
-.indextext6{display: flex; margin-top: 0.3em;margin-left: 7.3em;  line-height: 6.4em;} 
+.left6 {margin-right: 10.2em;}
+.indextext6{display: flex; margin-top: 0.3em; line-height: 6.4em;} 
 .indextext6 p {font-size: 5.5em;}
-.left7 {margin-right: 10.7em;}
+.left7 {margin-right: 10.8em;}
 .indextextnew {display: flex; margin-top: 130px;margin-left: 1.3em;  line-height: 6.4em;}
 .indextextnew p {font-size: 5.5em;}
 .leftnew {margin-right: 9.6em;}
@@ -410,7 +413,7 @@ z-index: 2;}
 .indextext12{display: flex; margin-top: 130px;margin-left: 1em;  line-height: 6.4em;} 
 .indextext12 p {font-size: 5.6em;}
 .left11 {margin-right: 7.3em;}
-.left12 {margin-right: 9.5em; margin-left: 0.2em;}
+.left12 {margin-right: 9.5em; margin-left: 1.6%;}
 .left13 {margin-right: 9.3em;}
 .left14 {margin-right: 8.6em;}
 .left15 {margin-right: 8.9em;}
@@ -426,7 +429,7 @@ z-index: 2;}
 .last {display: flex; margin-left: 0.3em; justify-content: space-between; font-size: 4em;}
 .hknu {font-size: 3.8em; margin-left: 0.3em;}
 .test1 {     font-size: 1.5em;
-    line-height: 134%;}
+    line-height: 127%;}
 }
 
 @media only screen and (min-width: 2400px) {
@@ -476,14 +479,13 @@ z-index: 2;}
 .signnumber {font-size: 2em; position: relative; top: -470px; left: 81.5%;}
 .close {font-size: 3em; }
 .number{font-size: 3em;}
-.classfication1 p {font-size: 2.2em; margin-right: 10.5em; }
-.classfication2 p {font-size: 2.2em; margin-right: 13.5em; }
-.classfication2 {display: flex;  padding-left: 1em; 
-  padding-right: 1em; margin-top: 1em; margin-left: 32em; }
-  .name {font-size: 2.2em;  margin-right: 9.0em; }
+.classfication1 p {font-size: 2.2em; }
+.classfication2 p {font-size: 2.2em; }
+  .name {font-size: 2.2em;  }
   .text1 { font-size: 1.4em; line-height: 1.7em;}
-  .text2 {width: 1920px; font-size: 1.7em; padding-left: 19.5em; margin-top: 1.5em; line-height: 1.6em; }
+  .text2 {width: 1920px; font-size: 1.7em; margin-top: 300px; line-height: 1.6em; }
 .nav2 p {font-size: 3.3em;}
+.signname {margin-left: -18%;}
   .nav3 p {font-size: 3.8em;}
   .signnumber {font-size: 3em; position: relative; top: -480px; left: 81.5%;}
   .nav4 p {font-size: 3.8em;}
@@ -506,10 +508,10 @@ z-index: 2;}
 .indextext4 img{width: 5%;}
 .indextext4 p {font-size: 6.5em;}
 .left5 {margin-right: 10em; margin-left: 0.2em;}
-.indextext5{display: flex; margin-top: 0.3em;margin-left: 9.8em;  line-height: 7.4em;} 
+.indextext5{display: flex; margin-top: 0.3em;  line-height: 7.4em;} 
 .indextext5 p {font-size: 6.5em;}
 .left6 {margin-right: 10em;}
-.indextext6{display: flex; margin-top: 0.3em;margin-left: 9.8em;  line-height: 7.4em;} 
+.indextext6{display: flex; margin-top: 0.3em; line-height: 7.4em;} 
 .indextext6 p {font-size: 6.5em;}
 .left7 {margin-right: 10.6em;}
 .indextextnew {display: flex; margin-top: 130px;margin-left: 1.3em;  line-height: 7.4em;}
@@ -532,7 +534,7 @@ z-index: 2;}
 .indextext12{display: flex; margin-top: 130px;margin-left: 1em;  line-height: 7.4em;} 
 .indextext12 p {font-size: 6.6em;}
 .left11 {margin-right: 7.3em;}
-.left12 {margin-right: 9.5em; margin-left: 0.2em;}
+.left12 {margin-right: 9.5em; margin-left: 1.6%;}
 .left13 {margin-right: 9.3em;}
 .left14 {margin-right: 8.6em;}
 .left15 {margin-right: 8.9em;}
