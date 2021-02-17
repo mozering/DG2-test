@@ -4,7 +4,7 @@ body{font-family: 'Noto Sans KR', sans-serif; overflow:initial;}
 .number{font-size: 2.3em;}
 .classfication1 {display: flex;  margin-top: 1.3em; justify-content: space-around; width: 100%; }
 .classfication1 p {font-size: 1.2em; }
-.classfication2 {display: flex;  margin-top: 1em; margin-left: 26.2%; }
+.classfication2 {display: flex;  margin-top: 1em; margin-left: 26%; }
 .classficationbaby {width: 25%;margin-right: 5.4%; }
 .classfication2 p {font-size: 1.2em;  }
 .manual {margin-left: -3em;}
@@ -12,9 +12,9 @@ body{font-family: 'Noto Sans KR', sans-serif; overflow:initial;}
 .name {font-size: 1.2em; position: relative;}
 .text1 { font-size: 1em; line-height: 1.7em; position: absolute; left: 26%;}
 .text2 {width: 1000px; font-size: 1.1em;  margin-top: 210px; line-height: 1.6em; position: relative; 
-left: 26.6%}
+left: 26%}
 .nav2{height: 100px; margin-top: 50px; display: flex; justify-content: space-between; padding: 0.5em; 
-padding-top: 1em;}
+padding-top: 1em; position: relative;}
 .nav2 p {font-size: 2.3em;}
 .grotesk {
 font-family: neue-haas-grotesk-display,sans-serif;
@@ -340,7 +340,7 @@ z-index: 2;}
 .popuplink1 { z-index: 9999999;}
 .textmargin {margin-left: 5.7%;}
 .arrow {width: 3%; padding-left: 0.5%;}
-.signmargin {margin-left: -16%;}
+.signmargin {position: absolute; left: 30%}
 .flexbox25{width: 25%;}
 
 @media only screen and (min-width: 1824px) {
@@ -356,7 +356,7 @@ z-index: 2;}
 .roadsign {width: 30%; position: relative; top: -800px; left: 37%; z-index: 10; filter: drop-shadow(10px 10px 10px #fff)}
 .bar {width: 3%; position: relative; left: 50%; top:500px;}
 .textsign {width: 30%; position: relative; top: -700px; left: 37%;filter: drop-shadow(10px 10px 10px #fff) }
-.signnumber {font-size: 2em; position: relative; top: -470px; left: 81.5%;}
+.signnumber {font-size: 2.8em; position: relative; top: -466px; left: 80.5%;}
 .close {font-size: 3em; }
 .number{font-size: 3em;}
 .classfication1 p {font-size: 2.2em; }
@@ -366,7 +366,6 @@ z-index: 2;}
   .text2 {width: 1420px; font-size: 1.7em; line-height: 1.6em; margin-top: 280px; }
 .nav2 p {font-size: 3.3em;}
   .nav3 p {font-size: 3.8em;}
-  .signnumber {font-size: 3em; position: relative; top: -480px; left: 81.5%;}
   .nav4 p {font-size: 3.8em;}
 .nav4{height: 100px; margin-top: 50px; padding: 0.5em; position: relative; top: -455px; }
 .nav5 p {font-size: 3.8em;}
@@ -430,6 +429,7 @@ z-index: 2;}
 .hknu {font-size: 3.8em; margin-left: 0.3em;}
 .test1 {     font-size: 1.5em;
     line-height: 127%;}
+.signimg {position: relative; left: -136px;}
 }
 
 @media only screen and (min-width: 2400px) {
