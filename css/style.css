@@ -244,6 +244,7 @@ z-index: 2;}
 .left10 {margin-right: 3.6em;}
 .indextext9{display: flex; margin-top: 130px;margin-left: 1em;  line-height: 5.4em; justify-content: space-between;} 
 .indextext9 p {font-size: 3.6em;}
+.indextext9p {width: 60%;}
 .indextext9img {width: 40%; position: relative; bottom: 5em; left: 1em; padding-right: 20px;}
 .indextext10{display: flex; margin-top: 0px;margin-left: 1em;  line-height: 5.4em;} 
 .indextext10 p {font-size: 4.6em;}
@@ -272,7 +273,7 @@ z-index: 2;}
 .stage1 img {width: 48%; margin-left: 730px; margin-bottom: 70px;}
 .stage1rule {font-size: 18em; margin-left: 10px;}
 .humanmade {font-size: 2.5em; margin-left: 0.7em;}
-.ruleimg {width: 70%; margin-left: 1.5em; margin-bottom: 10%; margin-top: 2%;}
+.ruleimg {margin-left: 1.5em; margin-bottom: 10%; margin-top: 2%;}
 .ruleimg2 {width: 77%; margin-left: 1.5em;margin-bottom: 10%;}
 .ruleimg3 {width: 90%; margin-left: 0.3em;margin-bottom: 7%;}
 .bigtext {font-size: 18em; display: flex; margin-top: 70px; justify-content: space-between;}
@@ -570,4 +571,4 @@ z-index: 2;}
 .slider{height: 2800px;}
 .test1 { font-size: 2em;}
 }
-@media (min-width: 320px) and (max-width: 480px) {.roadsignindex {display: none;}}
+@media only screen and (max-width: 480px)  {.roadsignindex {display: none;}}
