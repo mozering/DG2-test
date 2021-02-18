@@ -570,3 +570,4 @@ z-index: 2;}
 .slider{height: 2800px;}
 .test1 { font-size: 2em;}
 }
+@media (min-width: 320px) and (max-width: 480px) {.roadsignindex {display: none;}}
