@@ -4,15 +4,16 @@ body{font-family: 'Noto Sans KR', sans-serif; overflow:initial;}
 .number{font-size: 2.3em;}
 .classfication1 {display: flex;  margin-top: 1.3em; justify-content: space-around; width: 100%; }
 .classfication1 p {font-size: 1.2em; }
-.classfication2 {display: flex;  margin-top: 1em; margin-left: 26%; }
-.classficationbaby {width: 25%;margin-right: 5.4%; }
+.classfication2 {display: flex;  margin-top: 1em; margin-left: 26.4%; position: relative; margin-bottom: 4%;}
+.classficationbaby {width: 25%; position: absolute; }
+.manualnumber {position: absolute; left: 30%;}
 .classfication2 p {font-size: 1.2em;  }
 .manual {margin-left: -3em;}
-.classfication3 {display: flex; margin-top: 3em; padding-left: 0.5em; position: relative; height: 600px;}
+.classfication3 {display: flex; margin-top: 3em; padding-left: 0.5em; position: relative; height: 50vh;}
 .name {font-size: 1.2em; position: relative;}
 .text1 { width: 1000px;font-size: 1em; line-height: 1.7em; position: absolute; left: 26%;}
 .text2 {width: 1000px; font-size: 1.1em; line-height: 1.6em; position: absolute; 
-left: 26%; top: 35%; }
+left: 26%; top: 52%; }
 .nav2{height: 100px; margin-top: 50px; display: flex; justify-content: space-between; padding: 0.5em; 
 padding-top: 1em; position: relative;}
 .nav2 p {font-size: 2.3em;}
@@ -357,7 +358,7 @@ z-index: 2;}
   background-color: black;
   top: -470px;}
 
-.classfication3 {display: flex; margin-top: 3em; padding-left: 0.5em; position: relative; height: 900px;}
+.classfication3 {display: flex; margin-top: 3em; padding-left: 0.5em; position: relative; }
 .signimg {position: relative; height: 1800px; width: 100%; }
 .bar { position: absolute; left: 56%; top:10%;}
 .roadsign {position: absolute; top: 5%; left: 42.4%; z-index: 10; filter: drop-shadow(10px 10px 10px #fff)}
@@ -365,11 +366,13 @@ z-index: 2;}
 .signnumber {font-size: 2.8em; position: relative; top: -466px; left: 80.5%;}
 .close {font-size: 3em; }
 .number{font-size: 3em;}
-.classfication1 p {font-size: 2.2em; }
-.classfication2 p {font-size: 2.2em;  }
-  .name {font-size: 2.2em; }
-  .text1 { font-size: 1.4em; line-height: 1.7em;width: 1400px;}
-  .text2 {width: 1420px; font-size: 1.7em; line-height: 1.6em; }
+.classfication1 p {font-size: 1.6em; }
+.classfication2 p {font-size: 1.6em;  }
+.classfication2 {margin-left: 25.8%;}
+.manualnumber {left: 31.4%}
+  .name {font-size: 1.6em; }
+  .text1 { font-size: 1.3em; line-height: 1.7em;width: 1400px;}
+  .text2 {width: 1420px; font-size: 1.4em; line-height: 1.6em; }
 .nav2 p {font-size: 3.3em;}
   .nav3 p {font-size: 3.8em;}
   .nav4 p {font-size: 3.8em;}
@@ -438,7 +441,7 @@ z-index: 2;}
 }
 
 @media only screen and (min-width: 2400px) {
-.classfication3 {display: flex; margin-top: 3em; padding-left: 0.5em; position: relative; height: 1000px;}
+.classfication3 {display: flex; margin-top: 3em; padding-left: 0.5em; position: relative; }
 .signimg {position: relative; height: 2200px; width: 100%; }
 .bar { position: absolute; left: 55%; top:10%;}
 .roadsign { position: absolute; top: 5%; left: 41.4%; z-index: 10; filter: drop-shadow(10px 10px 10px #fff)}
