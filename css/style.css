@@ -8,11 +8,11 @@ body{font-family: 'Noto Sans KR', sans-serif; overflow:initial;}
 .classficationbaby {width: 25%;margin-right: 5.4%; }
 .classfication2 p {font-size: 1.2em;  }
 .manual {margin-left: -3em;}
-.classfication3 {display: flex; margin-top: 3em; padding-left: 0.5em;}
+.classfication3 {display: flex; margin-top: 3em; padding-left: 0.5em; position: relative; height: 600px;}
 .name {font-size: 1.2em; position: relative;}
-.text1 { font-size: 1em; line-height: 1.7em; position: absolute; left: 26%;}
-.text2 {width: 1000px; font-size: 1.1em;  margin-top: 210px; line-height: 1.6em; position: relative; 
-left: 26%}
+.text1 { width: 1000px;font-size: 1em; line-height: 1.7em; position: absolute; left: 26%;}
+.text2 {width: 1000px; font-size: 1.1em; line-height: 1.6em; position: absolute; 
+left: 26%; top: 35%; }
 .nav2{height: 100px; margin-top: 50px; display: flex; justify-content: space-between; padding: 0.5em; 
 padding-top: 1em; position: relative;}
 .nav2 p {font-size: 2.3em;}
@@ -24,10 +24,11 @@ font-style: normal;
 }
 .color {margin-left: -1.7em;}
 .signname {margin-left: -1.3em;}
-.bar {width: 3%; position: relative; left: 49%; top:300px;}
-.roadsign {width: 30%; position: relative; top: -550px; left: 35%; z-index: 10; filter: drop-shadow(10px 10px 10px #fff)}
-.textsign {width: 30%; position: relative; top: -500px; left: 35%;filter: drop-shadow(10px 10px 10px #fff) }
-.stoplogo {width: 7%; position: relative; top: -350px; left: 73%;}
+.signimg {position: relative; height: 1400px; width: 100%; }
+.bar {width: 2.6%; position: absolute; left: 49%; top:10%;}
+.roadsign {width: 30%; position: absolute; top: 5%; left: 35.4%; z-index: 10; filter: drop-shadow(10px 10px 10px #fff)}
+.textsign {width: 30%; position: absolute; left: 35%;filter: drop-shadow(10px 10px 10px #fff); margin-top: 40%; }
+.stoplogo {width: 7%; position: absolute; top: -350px; left: 73%;}
 .signnumber {font-size: 2em; position: relative; top: -440px; left: 81.5%;}
 .nav3{height: 100px; margin-top: 50px; padding: 0.5em; padding-top: 1.5em; position: relative; top: -400px; }
 .nav3 p {font-size: 2.8em;}
@@ -273,8 +274,8 @@ z-index: 2;}
 .stage1 img {width: 48%; margin-left: 730px; margin-bottom: 70px;}
 .stage1rule {font-size: 18em; margin-left: 10px;}
 .humanmade {font-size: 2.5em; margin-left: 0.7em;}
-.ruleimg {margin-left: 1.5em; margin-bottom: 10%; margin-top: 2%;}
-.ruleimg2 {width: 77%; margin-left: 1.5em;margin-bottom: 10%;}
+.ruleimg {margin-left: 0.3em; margin-bottom: 10%; margin-top: 2%; width: 80%;}
+.ruleimg2 {width: 80%; margin-left: 0.3em;margin-bottom: 10%;}
 .ruleimg3 {width: 90%; margin-left: 0.3em;margin-bottom: 7%;}
 .bigtext {font-size: 18em; display: flex; margin-top: 70px; justify-content: space-between;}
 .pa1 {width: 80%; margin-top: 70px; margin-left: 10%; }
@@ -329,7 +330,7 @@ z-index: 2;}
   .testbox7 {width: 11%; }
   .testbox8 {width: 8%;}
   .testbox9 {width: 15.4%;}
-
+.imgactive2 {visibility: visible;}
 .everylogo {display: flex;justify-content: space-around; flex-wrap: wrap; margin-left: 3%; }
 .everylogo img {width: 80%; margin-bottom: 3%; }
 .textalign {text-align: center;}
@@ -343,7 +344,9 @@ z-index: 2;}
 .arrow {width: 3%; padding-left: 0.5%;}
 .signmargin {position: absolute; left: 30%}
 .flexbox25{width: 25%;}
-
+.dkdlstbxkdls {width: 6%; height: 6%; position: relative; top: 35%; left: 63%; z-index: 99999999; visibility: hidden;}
+.lalala {color: black;}
+.lalala:hover {}
 @media only screen and (min-width: 1824px) {
   .slider {
   position: relative;
@@ -354,17 +357,19 @@ z-index: 2;}
   background-color: black;
   top: -470px;}
 
-.roadsign {width: 30%; position: relative; top: -800px; left: 37%; z-index: 10; filter: drop-shadow(10px 10px 10px #fff)}
-.bar {width: 3%; position: relative; left: 50%; top:500px;}
-.textsign {width: 30%; position: relative; top: -700px; left: 37%;filter: drop-shadow(10px 10px 10px #fff) }
+.classfication3 {display: flex; margin-top: 3em; padding-left: 0.5em; position: relative; height: 900px;}
+.signimg {position: relative; height: 1800px; width: 100%; }
+.bar { position: absolute; left: 56%; top:10%;}
+.roadsign {position: absolute; top: 5%; left: 42.4%; z-index: 10; filter: drop-shadow(10px 10px 10px #fff)}
+.textsign { position: absolute;left: 42%;filter: drop-shadow(10px 10px 10px #fff) }
 .signnumber {font-size: 2.8em; position: relative; top: -466px; left: 80.5%;}
 .close {font-size: 3em; }
 .number{font-size: 3em;}
 .classfication1 p {font-size: 2.2em; }
 .classfication2 p {font-size: 2.2em;  }
   .name {font-size: 2.2em; }
-  .text1 { font-size: 1.4em; line-height: 1.7em;}
-  .text2 {width: 1420px; font-size: 1.7em; line-height: 1.6em; margin-top: 280px; }
+  .text1 { font-size: 1.4em; line-height: 1.7em;width: 1400px;}
+  .text2 {width: 1420px; font-size: 1.7em; line-height: 1.6em; }
 .nav2 p {font-size: 3.3em;}
   .nav3 p {font-size: 3.8em;}
   .nav4 p {font-size: 3.8em;}
@@ -433,6 +438,14 @@ z-index: 2;}
 }
 
 @media only screen and (min-width: 2400px) {
+.classfication3 {display: flex; margin-top: 3em; padding-left: 0.5em; position: relative; height: 1000px;}
+.signimg {position: relative; height: 2200px; width: 100%; }
+.bar { position: absolute; left: 55%; top:10%;}
+.roadsign { position: absolute; top: 5%; left: 41.4%; z-index: 10; filter: drop-shadow(10px 10px 10px #fff)}
+.textsign {position: absolute;  left: 41%;filter: drop-shadow(10px 10px 10px #fff) }
+
+
+
   .slider {
   position: relative;
   width: 100%;
@@ -471,21 +484,15 @@ z-index: 2;}
    overflow-y: hidden;
 }
 
-
-
-.roadsign {width: 30%; position: relative; top: -800px; left: 37%; z-index: 10; filter: drop-shadow(10px 10px 10px #fff)}
-.bar {width: 3%; position: relative; left: 50%; top:500px;}
-.textsign {width: 30%; position: relative; top: -700px; left: 37%;filter: drop-shadow(10px 10px 10px #fff) }
-.signnumber {font-size: 2em; position: relative; top: -470px; left: 81.5%;}
 .close {font-size: 3em; }
 .number{font-size: 3em;}
 .classfication1 p {font-size: 2.2em; }
 .classfication2 p {font-size: 2.2em; }
   .name {font-size: 2.2em;  }
-  .text1 { font-size: 1.4em; line-height: 1.7em;}
-  .text2 {width: 1920px; font-size: 1.7em; margin-top: 300px; line-height: 1.6em; }
+  .text1 { font-size: 1.4em; line-height: 1.7em;width: 1620px;}
+  .text2 {width: 1620px; font-size: 1.7em;line-height: 1.6em; }
 .nav2 p {font-size: 3.3em;}
-.signname {margin-left: -18%;}
+.signname {margin-left: -1.8em;}
   .nav3 p {font-size: 3.8em;}
   .signnumber {font-size: 3em; position: relative; top: -480px; left: 81.5%;}
   .nav4 p {font-size: 3.8em;}
