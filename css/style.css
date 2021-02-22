@@ -261,10 +261,16 @@ z-index: 2;}
 .left15 {margin-right: 6.9em;}
 .left16 {margin-right: 7.2em;}
 .left17 {margin-right: 7em;}
-.Hankyong {display: flex; margin-top: 0.3em; margin-left: 1em;line-height: 4em; 
-  justify-content: space-between; width: 100%; margin-bottom: 150px; flex-wrap: wrap;}
+.Hankyong {    display: flex;
+    margin-top: -9%;
+    /* margin-left: 1em; */
+    line-height: 4em;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 100px;
+    flex-wrap: wrap;}
 .Hankyong p {font-size: 2.8em;}
-.Hankyong img {width: 20%;  bottom: 2em; margin-right: 2em;}
+.Hankyong img { bottom: 2em; margin-right: 2em;}
 .aboutflex{display: flex; margin-left: 1em; margin-top: 3em; justify-content: space-between;}
 .aboutp {font-size: 2.8em; margin-left: 0.3em;}
 .flexbox1 {width: 49%;}
@@ -275,9 +281,9 @@ z-index: 2;}
 .stage1 img {width: 48%; margin-left: 730px; margin-bottom: 70px;}
 .stage1rule {font-size: 18em; margin-left: 10px;}
 .humanmade {font-size: 2.5em; margin-left: 0.7em;}
-.ruleimg {margin-left: 0.3em; margin-bottom: 10%; margin-top: 2%; width: 80%;}
-.ruleimg2 {width: 80%; margin-left: 0.3em;margin-bottom: 10%;}
-.ruleimg3 {width: 90%; margin-left: 0.3em;margin-bottom: 7%;}
+.ruleimg { margin-bottom: 10%; margin-top: 2%; width: 100%;}
+.ruleimg2 {width: 100%; margin-left: 0.3em;margin-bottom: 10%;}
+.ruleimg3 {width: 100%; margin-left: 0.3em;margin-bottom: 7%;}
 .bigtext {font-size: 18em; display: flex; margin-top: 70px; justify-content: space-between;}
 .pa1 {width: 80%; margin-top: 70px; margin-left: 10%; }
 .pa2 {width: 78%; margin-top: 70px; margin-left: 10%; margin-top: 3%;  }
