@@ -447,7 +447,7 @@ z-index: 2;}
 }
 
 @media only screen and (min-width: 2400px) {
-.classfication3 {display: flex; margin-top: 3em; padding-left: 0.5em; position: relative; height: 47vh;margin-bottom:3%;}
+.classfication3 {display: flex; margin-top: 3em; padding-left: 0.5em; position: relative; height: 37vh;margin-bottom:3%;}
 .signimg {position: relative; height: 2200px; width: 100%; }
 .bar { position: absolute; left: 55%; top:10%;}
 .roadsign { position: absolute; top: 5%; left: 41.4%; z-index: 10; filter: drop-shadow(10px 10px 10px #fff)}
