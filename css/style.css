@@ -363,7 +363,7 @@ z-index: 2;}
   
   background-color: black;
   top: -470px;}
-
+.manual {    margin-left: -2.5em;}
 .classfication3 {display: flex; margin-top: 3em; padding-left: 0.5em; position: relative;  height: 44vh;}
 .signimg {position: relative; height: 1800px; width: 100%; }
 .bar { position: absolute; left: 56%; top:10%;}
@@ -447,7 +447,7 @@ z-index: 2;}
 }
 
 @media only screen and (min-width: 2400px) {
-.classfication3 {display: flex; margin-top: 3em; padding-left: 0.5em; position: relative; height: 47vh;}
+.classfication3 {display: flex; margin-top: 3em; padding-left: 0.5em; position: relative; height: 47vh;margin-bottom:3%;}
 .signimg {position: relative; height: 2200px; width: 100%; }
 .bar { position: absolute; left: 55%; top:10%;}
 .roadsign { position: absolute; top: 5%; left: 41.4%; z-index: 10; filter: drop-shadow(10px 10px 10px #fff)}
@@ -582,7 +582,7 @@ z-index: 2;}
 .signflex3 {font-size: 3.4em;}
 .signp {font-size: 3.4em; margin-left: 1em;}
 .indexlink {font-size: 3.4em; margin-left: 1em; display: flex; flex-direction:column;}
-
+.firstbox{height: 1440px;}
 
 .slider{height: 2800px;}
 .test1 { font-size: 2em;}
