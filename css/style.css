@@ -244,7 +244,7 @@ z-index: 2;}
 .indextext8 p {font-size: 4.6em;}
 .left9 {margin-right: 5.8em;}
 .left10 {margin-right: 3.6em;}
-.indextext9{display: flex; margin-top: 130px;margin-left: 1em;  line-height: 5.4em; justify-content: space-between;} 
+.indextext9{display: flex; margin-top: 130px;  line-height: 5.4em; justify-content: space-between;} 
 .indextext9 p {font-size: 3.6em;}
 .indextext9p {width: 60%;}
 .indextext9img {width: 40%; position: relative; bottom: 5em; left: 1em; padding-right: 20px;}
@@ -416,7 +416,7 @@ z-index: 2;}
 .indextext8 p {font-size: 5.6em;}
 .left9 {margin-right: 7.9em;}
 .left10 {margin-right: 5.7em;}
-.indextext9{display: flex; margin-top: 130px;margin-left: 1em;  line-height: 6.4em; justify-content: space-between;} 
+.indextext9{display: flex; margin-top: 130px; line-height: 6.4em; justify-content: space-between;} 
 .indextext9 p {font-size: 5.6em;}
 .indextext9img {width: 40%; position: relative; bottom: 5em; left: 1em; padding-right: 20px;}
 .indextext10{display: flex; margin-top: 0px;margin-left: 1em;  line-height: 6.4em;} 
@@ -540,7 +540,7 @@ z-index: 2;}
 .indextext8 p {font-size: 6.6em;}
 .left9 {margin-right: 7.9em;}
 .left10 {margin-right: 5.7em;}
-.indextext9{display: flex; margin-top: 130px;margin-left: 1em;  line-height: 7.4em; justify-content: space-between;} 
+.indextext9{display: flex; margin-top: 130px; line-height: 7.4em; justify-content: space-between;} 
 .indextext9 p {font-size: 6.6em;}
 .indextext9img {width: 40%; position: relative; bottom: 5em; left: 1em; padding-right: 20px;}
 .indextext10{display: flex; margin-top: 0px;margin-left: 1em;  line-height: 7.4em;} 
