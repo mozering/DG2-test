@@ -295,7 +295,7 @@ z-index: 2;}
 .signp {font-size: 2em; margin-left: 1em;margin-bottom: 4%;}
 .stage3 {z-index: 1;}
 .grotesk {z-index: 1;}
-.indexlink {font-size: 2em; margin-left: 1em; display: flex; flex-direction:column;}
+.indexlink {font-size: 2em; margin-left: 0.6em; display: flex; flex-direction:column;}
 .linkimg {width: 30%; float: right; margin-right: 3%; position: relative; visibility: hidden;}
 .linkimgmake0 {top: 0%; position: absolute; width: 100%;}
 .imgactive {visibility: visible;}
@@ -581,7 +581,7 @@ z-index: 2;}
 .signflex2 {font-size: 3.4em; position: relative;}
 .signflex3 {font-size: 3.4em;}
 .signp {font-size: 3.4em; margin-left: 1em;}
-.indexlink {font-size: 3.4em; margin-left: 1em; display: flex; flex-direction:column;}
+.indexlink {font-size: 3.4em;  display: flex; flex-direction:column;}
 .firstbox{height: 1440px;}
 
 .slider{height: 2800px;}
