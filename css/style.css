@@ -244,7 +244,7 @@ z-index: 2;}
 .indextext8 p {font-size: 4.6em;}
 .left9 {margin-right: 5.8em;}
 .left10 {margin-right: 3.6em;}
-.indextext9{display: flex; margin-top: 130px;  line-height: 5.4em; justify-content: space-between;} 
+.indextext9{display: flex; margin-top: 130px;  line-height: 5.4em; justify-content: space-between; } 
 .indextext9 p {font-size: 3.6em;}
 .indextext9p {width: 60%;}
 .indextext9img {width: 40%; position: relative; bottom: 5em; left: 1em; padding-right: 20px;}
@@ -280,7 +280,7 @@ z-index: 2;}
 .stage1 {font-size: 250px;  margin-left: 10px; padding: 0;}
 .stage1 img {width: 48%; margin-left: 730px; margin-bottom: 70px;}
 .stage1rule {font-size: 18em; margin-left: 10px;}
-.humanmade {font-size: 2.5em; margin-left: 0.5em;}
+.humanmade {font-size: 2.5em; margin-left: 0.4em;}
 .ruleimg { margin-bottom: 10%; margin-top: 2%; width: 100%;}
 .ruleimg2 {width: 100%; margin-left: 0.3em;margin-bottom: 10%;}
 .ruleimg3 {width: 100%; margin-left: 0.3em;margin-bottom: 7%;}
@@ -568,7 +568,7 @@ z-index: 2;}
 .stage1 {font-size: 24em; margin-top: 150px; margin-left: 10px;}
 .stage1 img {width: 50%; margin-left: 1250px; margin-bottom: 70px;}
 .stage1rule {font-size: 24em; margin-left: 10px;}
-.humanmade {font-size: 4.8em; margin-left: 0.7em;}
+.humanmade {font-size: 4.8em;}
 .ruleimg {margin-left: 20px; }
 .ruleimg2 { margin-left: 20px;}
 .ruleimg3 {width: 90%; margin-left: 20px;margin-bottom: 7%;}
