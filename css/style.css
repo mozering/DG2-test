@@ -292,7 +292,7 @@ z-index: 2;}
 .signflex1 {width: 51%; }
 .signflex2 {font-size: 2em; position: relative;}
 .signflex3 {font-size: 2em;}
-.signp {font-size: 2em; margin-left: 1em;margin-bottom: 4%;}
+.signp {font-size: 2em; margin-left: 0.6em;margin-bottom: 4%;}
 .stage3 {z-index: 1;}
 .grotesk {z-index: 1;}
 .indexlink {font-size: 2em; margin-left: 0.6em; display: flex; flex-direction:column;}
