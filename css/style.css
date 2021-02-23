@@ -277,7 +277,7 @@ z-index: 2;}
 .flexbox2 {font-size: 1.4em; width: 49%; line-height: 123%}
 .last {display: flex; margin-left: 0.3em; justify-content: space-between; font-size: 2em;}
 .hknu {font-size: 2.8em; margin-left: 0.3em;}
-.stage1 {font-size: 18em; margin-top: 150px; margin-left: 10px;}
+.stage1 {font-size: 250px;  margin-left: 10px; padding: 0;}
 .stage1 img {width: 48%; margin-left: 730px; margin-bottom: 70px;}
 .stage1rule {font-size: 18em; margin-left: 10px;}
 .humanmade {font-size: 2.5em; margin-left: 0.7em;}
