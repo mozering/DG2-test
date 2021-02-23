@@ -11,7 +11,7 @@ body{font-family: 'Noto Sans KR', sans-serif; overflow:initial;}
 .manual {margin-left: -3em;}
 .classfication3 {display: flex; margin-top: 3em; padding-left: 0.5em; position: relative; height: 50vh;}
 .name {font-size: 1.2em; position: relative;}
-.text1 { width: 1000px;font-size: 1em; line-height: 1.7em; position: absolute; left: 26%;}
+.text1 { width: 1000px;font-size: 1em; line-height: 1.7em; position: absolute; left: 25.7%;}
 .text2 {width: 1000px; font-size: 1.1em; line-height: 1.6em; position: absolute; 
 left: 26%; top: 52%; }
 .nav2{height: 100px; margin-top: 50px; display: flex; justify-content: space-between; padding: 0.5em; 
@@ -349,7 +349,7 @@ z-index: 2;}
 .popuplink1 { z-index: 9999999;}
 .textmargin {margin-left: 5.7%;}
 .arrow {width: 3%; padding-left: 0.5%;}
-.signmargin {position: absolute; left: 30%}
+.signmargin {position: absolute; left: 29.7%}
 .flexbox25{width: 25%;}
 .dkdlstbxkdls {width: 6%; height: 6%; position: relative; top: 35%; left: 63%; z-index: 99999999; visibility: hidden;}
 .lalala {color: black;}
@@ -364,7 +364,7 @@ z-index: 2;}
   background-color: black;
   top: -470px;}
 
-.classfication3 {display: flex; margin-top: 3em; padding-left: 0.5em; position: relative; }
+.classfication3 {display: flex; margin-top: 3em; padding-left: 0.5em; position: relative;  height: 44vh;}
 .signimg {position: relative; height: 1800px; width: 100%; }
 .bar { position: absolute; left: 56%; top:10%;}
 .roadsign {position: absolute; top: 5%; left: 42.4%; z-index: 10; filter: drop-shadow(10px 10px 10px #fff)}
@@ -447,7 +447,7 @@ z-index: 2;}
 }
 
 @media only screen and (min-width: 2400px) {
-.classfication3 {display: flex; margin-top: 3em; padding-left: 0.5em; position: relative; }
+.classfication3 {display: flex; margin-top: 3em; padding-left: 0.5em; position: relative; height: 47vh;}
 .signimg {position: relative; height: 2200px; width: 100%; }
 .bar { position: absolute; left: 55%; top:10%;}
 .roadsign { position: absolute; top: 5%; left: 41.4%; z-index: 10; filter: drop-shadow(10px 10px 10px #fff)}
