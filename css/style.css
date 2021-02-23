@@ -432,7 +432,7 @@ z-index: 2;}
 .left15 {margin-right: 8.9em;}
 .left16 {margin-right: 9.2em;}
 .left17 {margin-right: 9em;}
-.Hankyong {display: flex; margin-top: 0.3em; margin-left: 1em;line-height: 5em; justify-content: space-between; width: 100%; margin-bottom: 150px;}
+.Hankyong {display: flex; margin-top: 0.3em;line-height: 5em; justify-content: space-between; width: 100%; margin-bottom: 150px;}
 .Hankyong p {font-size: 3.8em;}
 .Hankyong img {width: 20%;  bottom: 2em; margin-right: 2em;}
 .aboutflex{display: flex; margin-left: 1em; margin-top: 3em; justify-content: space-between;}
@@ -556,7 +556,7 @@ z-index: 2;}
 .left15 {margin-right: 8.9em;}
 .left16 {margin-right: 9.2em;}
 .left17 {margin-right: 9em;}
-.Hankyong {display: flex; margin-top: 0.3em; margin-left: 1em;line-height: 6em; justify-content: space-between; width: 100%; margin-bottom: 150px;}
+.Hankyong {display: flex; margin-top: 0.3em; line-height: 6em; justify-content: space-between; width: 100%; margin-bottom: 150px;}
 .Hankyong p {font-size: 4.8em;}
 .Hankyong img {width: 20%;  bottom: 2em; margin-right: 2em;}
 .aboutflex{display: flex; margin-left: 1em; margin-top: 3em; justify-content: space-between;}
