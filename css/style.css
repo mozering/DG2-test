@@ -580,7 +580,7 @@ z-index: 2;}
 .signflex1 {width: 51%; }
 .signflex2 {font-size: 3.4em; position: relative;}
 .signflex3 {font-size: 3.4em;}
-.signp {font-size: 3.4em; margin-left: 1em;}
+.signp {font-size: 3.4em; }
 .indexlink {font-size: 3.4em;  display: flex; flex-direction:column;}
 .firstbox{height: 1440px;}
 
