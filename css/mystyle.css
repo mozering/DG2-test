@@ -1,0 +1,355 @@
+.mainnav p {font-size: 15px;}
+.content2 {font-size: 10em;}
+.content3 {font-size: 10em;}
+.indextext p {
+    font-size: 1.5em;
+    line-height: 120%;
+}
+.left {
+    margin-right: 3em;
+}
+.indextext {margin-left: 0.2em;}
+.indextext2 {margin-left: 0.2em;}
+
+.indextext2 p {font-size: 1.5em;
+    line-height: 120%;}
+.left2 {margin-right: 5.6em;}
+.left3 {margin-right: 3.6em;}
+.indextext3 {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 0.2em; 
+    line-height: 5.4em;}
+.textmargin {margin-left: 5.7%}
+.indextext3 p {font-size: 1.5em;
+    line-height: 120%;}
+.left4 {margin-right: 2.8em;}
+.indextext4 { margin-top: 29px; margin-left: 0.2em; height: 57px;}
+.indextext4 p {font-size: 1.5em;}
+.left5 {margin-right: 6.45em; margin-left: 0.2em;}
+.indextext5{    display: flex;
+  margin-top: 0.3em; } 
+.indextext5 p {font-size: 1.5em;
+    line-height: 120%;}
+    .arrow {padding-left: 0%;}
+.left6 {    margin-right: 6.5em;}
+.indextext6{display: flex; margin-top: 0.3em;margin-left: 1.5em;  line-height: 5.4em;} 
+.indextext6 p {font-size: 1.5em;
+    line-height: 120%;}
+.indextextnew {display: flex; margin-top: 50px;margin-left: 0.2em;  line-height: 5.4em;}
+.indextextnew p {font-size: 1.5em;
+    line-height: 120%;}
+.leftnew {margin-right: 5.7em;}
+.left7 {margin-right: 7em;}
+.indextext7{display: flex; margin-top: 50px;margin-left: 0.2em;  line-height: 5.4em;} 
+.indextext7 p {font-size: 1.5em;
+    line-height: 120%;}
+.left8 {margin-right: 4.4em;}
+.indextext8{display: flex; margin-top: 0.3em;margin-left: 0.2em;  line-height: 5.4em;} 
+.indextext8 p {font-size: 1.5em;
+    line-height: 120%;}
+.left9 {margin-right: 4.2em;}
+.left10 {margin-right: 2em;}
+.indextext9{display: flex; margin-top: 50px;  line-height: 5.4em; justify-content: space-between; } 
+.indextext9 p {font-size: 1.5em;
+    line-height: 120%;}
+.indextext9p {width: 60%;}
+.indextext9img {width: 40%; position: relative; bottom: 5em; left: 1em; padding-right: 20px;}
+.indextext10{display: flex; margin-top: 0px;margin-left: 0.2em;  line-height: 5.4em;} 
+.indextext10 p {font-size: 1.5em;
+    line-height: 120%;}
+.indextext11{display: flex; margin-top: 0px;margin-left: 45em;  line-height: 5.4em;} 
+.indextext11 p {font-size: 1.5em;
+    line-height: 120%;}
+.indextext12{display: flex; margin-top: 130px;margin-left: 0.2em;   line-height: 5.4em;} 
+.indextext12 p {font-size: 1.5em;
+    line-height: 120%;}
+.left11 {margin-right: 3.5em;}
+.left12 {margin-right: 6em; margin-left: 1.6%;}
+.left13 {margin-right: 5.8em;}
+.left14 {margin-right: 5.1em;}
+.left15 {margin-right: 5.4em;}
+.left16 {margin-right: 5.7em;}
+.left17 {margin-right: 5.5em;}
+.marquee2 {height: 200px;}
+.marquee3 {height: 200px;}
+.humanmade {font-size: 1em; margin-left: 0.2em;}
+.aboutflex {
+    display: flex;
+    margin-left: 0.2em;
+    margin-top: 3em;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.flexbox1 {
+    width: 100%;
+}
+.flexbox2 {
+    width: 100%;
+}
+.Hankyong {}
+.flexbox2 {
+    font-size:0.8em;
+    line-height: 110%;
+    margin-top: 3%;
+}
+.stage1 {
+    font-size: 73px;
+    margin-left: 3px;
+    padding: 0;
+}
+.stage1 img {
+    width: 48%;
+    margin-left: 160px;
+    /* margin-bottom: 70px; */
+}
+.stage1rule {
+    font-size: 73px;
+    /* margin-left: 3px; */
+}
+.bigtext {
+    font-size: 73px;
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+}
+.signflex3 {
+    font-size: 0.5em;
+}
+.signflex2 {
+    font-size: 0.5em;
+    position: relative;
+}
+.signp {
+    font-size: 1em;
+    margin-left: 0.2em;
+    margin-bottom: 4%;
+}
+.linkstick {display: none;}
+.indexlink {
+    font-size: 1em;
+    margin-left: 0.2em;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.roadsignindex {display: none;}
+
+.everything {
+    width: 20%;
+    font-size: 5px;
+}
+.Hankyong p {
+    font-size: 0.8em;
+}
+.last {font-size: 1em;}
+
+.number {font-size: 1.5em;}
+.close {
+    font-size: 1.5em;
+}
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+}
+.classfication1 {
+    display: flex;
+    margin-top: 0.5em;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: 0.1em;
+}
+.classfication1 p {
+    font-size: 0.6em;
+}
+
+.manual {
+    margin-left: -0.5em;
+}
+.classfication2 {
+    display: flex;
+    margin-top: 2%;
+    margin-left: 25%;
+    position: relative;
+    margin-bottom: 7%;
+}
+.classfication2 p {
+    font-size: 0.6em;
+}
+.manualnumber {
+    position: absolute;
+    left: 33%;
+}
+.classfication3 {
+    display: flex;
+    margin-top: 3em;
+    padding-left: 0.1em;
+    position: relative;
+    height: 60vh;
+}
+.name {
+    font-size: 0.6em;
+    position: relative;
+}
+.text1 {
+    width: auto;
+    font-size: 0.6em;
+    line-height: 1.7em;
+    position: absolute;
+    left: 25.7%;
+}
+.text2 {
+    width: auto;
+    font-size: 0.6em;
+    line-height: 1.6em;
+    position: absolute;
+    left: 26%;
+    top: 52%;
+}
+.nav2 {
+    height: 100px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.1em;
+    padding-top: 1em;
+    position: relative;
+}
+.nav2 p {
+    font-size: 0.6em;
+}
+.signmargin {
+    position: absolute;
+    left: 29.7%;
+}
+.signimg {
+    position: relative;
+    height: 600px;
+    width: 100%;
+}
+.bar {
+    width: 2.6%;
+    position: absolute;
+    left: 49%;
+    top: 1%;
+}
+.roadsign {
+    width: 30%;
+    position: absolute;
+    top: -4%;
+    left: 35.4%;
+    z-index: 10;
+    filter: drop-shadow(10px 10px 10px #fff);
+}
+.textsign {
+    width: 30%;
+    position: absolute;
+    left: 35%;
+    filter: drop-shadow(10px 10px 10px #fff);
+    margin-top: 26%;
+}
+.nav3 {
+    height: 100px;
+    margin-top: 50px;
+    padding: 0.5em;
+    padding-top: 1.5em;
+    position: relative;
+    top: -400px;
+}
+.nav3 p {
+    font-size: 1.8em;
+}
+.rolling {
+    position: relative;
+    top: -423px;
+}
+.nav4 {
+    height: 82px;
+    margin-top: 0px;
+    padding: 0.5em;
+    padding-top: 1.5em;
+    position: relative;
+    top: -452px;
+}
+.nav4 p {
+    font-size: 1.8em;
+}
+.slider {
+    position: relative;
+    width: 100%;
+    height: 385px;
+    overflow: hidden;
+    background-color: black;
+    top: -468px;
+}
+.slider .slide {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    font-size: 20px;
+    opacity: 0;
+    cursor: pointer;
+}
+.nav5 {
+    height: 100px;
+    margin-top: 50px;
+    padding: 0.5em;
+    padding-top: 1.5em;
+    position: relative;
+    top: -535px;
+}
+.nav5 p {
+    font-size: 1.8em;
+}
+.slider2 {
+    position: relative;
+    width: 100%;
+    height: 385px;
+    overflow: hidden;
+    top: -575px;
+}
+.slider2 .slide2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    font-size: 20px;
+    opacity: 0;
+    cursor: pointer;
+}
+.nav6 {
+     height: 17px;
+    /* margin-top: 50px; */
+    padding: 0.5em;
+    /* padding-top: 1.5em; */
+    position: relative;
+    top: -100px;
+}
+.nav6 p {
+    font-size: 1em;
+}
+.indextext11 {
+    display: flex;
+    margin-top: 0px;
+    margin-left: 11em;
+    line-height: 5.4em;
+}
+.rlfdj {height: 100vh;}
+.everylogo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 3%;
+    margin-top: 5%;
+}
