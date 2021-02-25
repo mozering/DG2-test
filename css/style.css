@@ -246,7 +246,7 @@ z-index: 2;}
 .indextext9{display: flex; margin-top: 130px;  line-height: 5.4em; justify-content: space-between; } 
 .indextext9 p {font-size: 3.6em;}
 .indextext9p {width: 60%;}
-.indextext9img {width: 40%; position: relative; bottom: 5em; left: 1em; padding-right: 20px;}
+.indextext9img {width: 100%; position: relative; bottom: 5em; left: 1em; padding-right: 20px;}
 .indextext10{display: flex; margin-top: 0px;margin-left: 1em;  line-height: 5.4em;} 
 .indextext10 p {font-size: 4.6em;}
 .indextext11{display: flex; margin-top: 150px;margin-left: 45em;  line-height: 5.4em;} 

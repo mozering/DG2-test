@@ -140,7 +140,6 @@
     font-size: 5px;
 }
 .Hankyong {width: 100%;}
-.Hankyong img {width: 30px;}
 .Hankyong p {
     font-size: 0.8em;
 }
@@ -155,6 +154,9 @@
     justify-content: space-between;
     padding-left: 0.1em;
     padding-right: 0.1em;
+}
+.logoimg {
+    width: 350px;
 }
 .classfication1 {
     display: flex;
