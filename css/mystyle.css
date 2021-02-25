@@ -1,6 +1,8 @@
 .mainnav p {font-size: 15px;}
-.content2 {font-size: 10em;}
-.content3 {font-size: 10em;}
+.hyperpro {height: 1em;}
+.content {font-size: 0.5em;}
+.content2 {font-size: 7em;}
+.content3 {font-size: 7em;}
 .indextext p {
     font-size: 1.5em;
     line-height: 120%;
@@ -79,6 +81,7 @@
 .left15 {margin-right: 5.4em;}
 .left16 {margin-right: 5.7em;}
 .left17 {margin-right: 5.5em;}
+.marquee {margin-bottom: -70px;}
 .marquee2 {height: 200px;}
 .marquee3 {height: 200px; margin-top: 70px;}
 .humanmade {font-size: 1em; margin-left: 0.2em;}

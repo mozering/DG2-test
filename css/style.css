@@ -4,7 +4,7 @@ body{font-family: 'Noto Sans KR', sans-serif; overflow:initial;}
 .number{font-size: 2.3em;}
 .classfication1 {display: flex;  margin-top: 1.3em; justify-content: space-around; width: 100%; }
 .classfication1 p {font-size: 1.2em; }
-.classfication2 {display: flex;  margin-top: 1em; margin-left: 26.4%; position: relative; margin-bottom: 4%;}
+.classfication2 {display: flex;  margin-top: 1em; margin-left: 26%; position: relative; margin-bottom: 4%;}
 .classficationbaby {width: 25%; position: absolute; }
 .manualnumber {position: absolute; left: 30%;}
 .classfication2 p {font-size: 1.2em;  }
@@ -23,10 +23,10 @@ font-weight: 500;
 font-style: normal;
 
 }
-.c11 {    margin-right: 0.7%;
-    margin-left: 0.3%;}
+.c11 {  margin-right: 0.3%;
+    margin-left: 0.5%;}
 
-.c12 {margin-right: 0.7%;}
+.c12 {margin-right: 3%;}
   .manualnumber {
     left: 32.7%;
 }
@@ -384,7 +384,7 @@ z-index: 2;}
   background-color: black;
   top: -470px;}
 .manual {    margin-left: -2.5em;}
-.classfication3 {display: flex; margin-top: 3em; padding-left: 0.5em; position: relative;  height: 44vh;}
+.classfication3 {display: flex; margin-top: 3em; padding-left: 0.5em; position: relative;  height: 47vh;}
 .signimg {position: relative; height: 1800px; width: 100%; }
 .bar { position: absolute; left: 56%; top:10%;}
 .roadsign {position: absolute; top: 5%; left: 42.4%; z-index: 10; filter: drop-shadow(10px 10px 10px #fff)}
@@ -463,14 +463,16 @@ z-index: 2;}
 .test1 {     font-size: 1.5em;
     line-height: 127%;}
 .signimg {position: relative; left: -136px;}
-.tktlqvh {height: 40vh}
+.tktlqvh {height: 37vh}
 .tkatlqvh {height: 30vh}
-.dbrclfvh{height: 67vh;}
+.dbrclfvh{height: 56vh;}
 .dhclfvh {height: 57vh;}
 .clfdhvh {height: 75vh;}
 .tkadhvh {height: 35vh;}
-.vkftlqvh {height: 80vh;}
-.dhtlqch {height: 60vh}
+.vkftlqvh {
+    height: 68vh;
+}
+.dhtlqch {height: 63vh}
 }
 
 @media only screen and (min-width: 2400px) {
@@ -647,7 +649,7 @@ z-index: 2;}
 }
 .nav6 {
     height: 100px;
-    margin-top: 50px;
+    margin-top: 250px;
     padding: 0.5em;
     padding-top: 1.5em;
     top: 700px;
@@ -668,16 +670,19 @@ z-index: 2;}
 .slider2 {
     position: relative;
     width: 100%;
-    height: 1400px;
+    height: 1700px;
     overflow: hidden;
     top: -470px;
 }
 .dhtlqch {height: 50vh}
 .dbrclfvh {
-    height: 55vh;
+    height: 47vh;
 }
-.vkftlqvh {height: 60vh; margin-bottom: 4%;}
-
+.vkftlqvh {height: 58vh; margin-bottom: 7%;}
+.tkatlqvh {height: 25vh}
+.tktlqvh {height: 30vh}
+.dhclfvh {height: 45vh;}
+.tkadhvh {height: 25vh;}
 }
 
 
