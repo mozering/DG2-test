@@ -206,12 +206,12 @@
     margin-top: 3em;
     padding-left: 0.1em;
     position: relative;
-    height: 25vh;
+    height: 28vh;
 }
 .tktlqvh {height: 20vh;}
 .tkatlqvh {height: 15vh;}
 .dbrclfvh{height: 35vh;}
-.dhclfvh {height: 25vh;}
+.dhclfvh {height: 30vh;}
 .clfdhvh{height: 45vh;}
 .tkadhvh {height: 15vh;}
 .vkftlqvh {height: 50vh;}
@@ -267,13 +267,13 @@
     top: -4%;
     left: 35.4%;
     z-index: 10;
-    filter: drop-shadow(10px 10px 10px #fff);
+    filter: drop-shadow(3px 3px 3px #fff);
 }
 .textsign {
     width: 30%;
     position: absolute;
     left: 35%;
-    filter: drop-shadow(10px 10px 10px #fff);
+    filter: drop-shadow(3px 3px 3px #fff);
     margin-top: 26%;
 }
 .nav3 {
