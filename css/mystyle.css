@@ -8,9 +8,12 @@
 .left {
     margin-right: 3em;
 }
-.indextext {margin-left: 0.2em;}
+#index {margin-top: 70px;}
+.marquee2 {margin-top: 70px;}
+.marquee3 {margin-top: 70px;}
+.indextext {margin-left: 0.2em;margin-bottom: -33px;}
 .indextext2 {margin-left: 0.2em;}
-
+#roadsign {margin-top: 70px;}
 .indextext2 p {font-size: 1.5em;
     line-height: 120%;}
 .left2 {margin-right: 5.6em;}
@@ -24,7 +27,7 @@
 .indextext3 p {font-size: 1.5em;
     line-height: 120%;}
 .left4 {margin-right: 2.9em;}
-.indextext4 { margin-top: 29px; margin-left: 0.2em; height: 57px;}
+.indextext4 { margin-top: 25px; margin-left: 0.2em; height: 57px;}
 .indextext4 p {font-size: 1.5em;}
 .left5 {margin-right: 6.45em; margin-left: 0.2em;}
 .indextext5{    display: flex;
@@ -48,25 +51,25 @@
 .indextext8{display: flex; margin-top: 0.3em;margin-left: 0.2em;  line-height: 5.4em;} 
 .indextext8 p {font-size: 1.5em;
     line-height: 120%;}
-.left9 {margin-right: 4.1em;}
+.left9 {margin-right: 4.1em;margin-top: 50px;}
 .left10 {margin-right: 1.9em;}
 .indextext9{display: flex; margin-top: 50px;  line-height: 5.4em; justify-content: space-between; } 
 .indextext9 p {font-size: 1.5em;
     line-height: 120%;}
 .indextext9p {width: 60%;}
 .indextext9img {width: 40%; position: relative; bottom: 5em; left: 1em; padding-right: 20px;}
-.indextext10{display: flex; margin-top: 0px;margin-left: 0.2em;  line-height: 5.4em;} 
+.indextext10{display: flex; margin-top: 0px;margin-left: 0.2em;  line-height: 5.4em;margin-top: 50px;} 
 .indextext10 p {font-size: 1.5em;
     line-height: 120%;}
 .indextext11{
     display: flex;
-    margin-top: 17px;
+    margin-top: 50px;
     margin-left: 12em;
     line-height: 5.4em;
 }
 .indextext11 p {font-size: 1.5em;
     line-height: 120%;}
-.indextext12{display: flex; margin-top: 130px;margin-left: 0.2em;   line-height: 5.4em;} 
+.indextext12{display: flex;margin-top: 50px;margin-left: 0.2em;   line-height: 5.4em;} 
 .indextext12 p {font-size: 1.5em;
     line-height: 120%;}
 .left11 {margin-right: 3.5em;}
@@ -77,7 +80,7 @@
 .left16 {margin-right: 5.7em;}
 .left17 {margin-right: 5.5em;}
 .marquee2 {height: 200px;}
-.marquee3 {height: 200px;}
+.marquee3 {height: 200px; margin-top: 70px;}
 .humanmade {font-size: 1em; margin-left: 0.2em;}
 .humanmade img {width: 100%;}
 .aboutflex {
@@ -91,7 +94,7 @@
     width: 100%;
 }
 .flexbox2 {
-    width: 100%;
+    width: 100%;margin-bottom: 70px;
 }
 .Hankyong {}
 .flexbox2 {
@@ -103,6 +106,7 @@
     font-size: 73px;
     margin-left: 3px;
     padding: 0;
+    margin-top: 70px;
 }
 .stage1 img {
     width: 48%;
@@ -111,7 +115,7 @@
 }
 .stage1rule {
     font-size: 73px;
-    /* margin-left: 3px; */
+    margin-left: 0px;
 }
 .bigtext {
     font-size: 73px;
@@ -145,7 +149,8 @@
     width: 20%;
     font-size: 5px;
 }
-.Hankyong {width: 100%;}
+.stage2img {margin-bottom: 50px;}
+.Hankyong {width: 100%; margin-bottom: 25px;}
 .Hankyong p {
     font-size: 0.8em;
 }
@@ -358,12 +363,14 @@
 .nav6 p {
     font-size: 1em;
 }
+.dhtlqch {height: 40vh}
 .rlfdj {height: 100vh;}
 .everylogo {
-    display: flex;
+      display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     margin-left: 3%;
     margin-top: 5%;
+    margin-bottom: 70px;
 }
 .text2 {display: none;}

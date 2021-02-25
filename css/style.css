@@ -11,7 +11,7 @@ body{font-family: 'Noto Sans KR', sans-serif; overflow:initial;}
 .manual {margin-left: -3em;}
 .classfication3 {display: flex; margin-top: 3em; padding-left: 0.5em; position: relative; height: 50vh;}
 .name {font-size: 1.2em; position: relative;}
-.text1 { width: 1000px;font-size: 1em; line-height: 1.7em; position: absolute; left: 25.7%;}
+.text1 { width: 1000px;font-size: 1em; line-height: 1.7em; position: absolute; left: 26%;}
 .text2 {width: 1000px; font-size: 1.1em; line-height: 1.6em; position: absolute; 
 left: 26%; top: 52%; }
 .nav2{height: 100px; margin-top: 50px; display: flex; justify-content: space-between; padding: 0.5em; 
@@ -22,6 +22,13 @@ font-family: neue-haas-grotesk-display,sans-serif;
 font-weight: 500;
 font-style: normal;
 
+}
+.c11 {    margin-right: 0.7%;
+    margin-left: 0.3%;}
+
+.c12 {margin-right: 0.7%;}
+  .manualnumber {
+    left: 32.7%;
 }
 .color {margin-left: -1.7em;}
 .signname {margin-left: -1.3em;}
@@ -45,6 +52,7 @@ font-style: normal;
 .clfdhvh {height: 75vh;}
 .tkadhvh {height: 35vh;}
 .vkftlqvh {height: 80vh;}
+.dhtlqch {height: 50vh}
 .slider {
   position: relative;
   width: 100%;
@@ -280,7 +288,7 @@ z-index: 2;}
 .aboutp {font-size: 2.8em; margin-left: 0.3em;}
 .flexbox1 {width: 49%;}
 .flexbox2 {font-size: 1.4em; width: 49%; line-height: 123%}
-.last {display: flex; margin-left: 0.3em; justify-content: space-between; font-size: 2em;}
+.last {display: flex; margin-left: 0.3em; justify-content: space-between; font-size: 2.8em;}
 .hknu {font-size: 2.8em; margin-left: 0.3em;}
 .stage1 {font-size: 250px;  margin-left: 10px; padding: 0;}
 .stage1 img {width: 48%; margin-left: 730px; margin-bottom: 70px;}
@@ -360,6 +368,13 @@ z-index: 2;}
 .lalala {color: black;}
 .lalala:hover {}
 @media only screen and (min-width: 1824px) {
+  .c11 {
+    margin-right: 0.3%;
+    margin-left: 0.3%;
+}
+.c12 {
+    margin-right: 0.7%;
+}
   .slider {
   position: relative;
   width: 100%;
@@ -379,8 +394,8 @@ z-index: 2;}
 .number{font-size: 3em;}
 .classfication1 p {font-size: 1.6em; }
 .classfication2 p {font-size: 1.6em;  }
-.classfication2 {margin-left: 25.8%;}
-.manualnumber {left: 31.4%}
+.classfication2 {margin-left: 26%;}
+.manualnumber {left: 32%}
   .name {font-size: 1.6em; }
   .text1 { font-size: 1.3em; line-height: 1.7em;width: 1400px;}
   .text2 {width: 1420px; font-size: 1.4em; line-height: 1.6em; }
@@ -448,9 +463,39 @@ z-index: 2;}
 .test1 {     font-size: 1.5em;
     line-height: 127%;}
 .signimg {position: relative; left: -136px;}
+.tktlqvh {height: 40vh}
+.tkatlqvh {height: 30vh}
+.dbrclfvh{height: 67vh;}
+.dhclfvh {height: 57vh;}
+.clfdhvh {height: 75vh;}
+.tkadhvh {height: 35vh;}
+.vkftlqvh {height: 80vh;}
+.dhtlqch {height: 60vh}
 }
 
 @media only screen and (min-width: 2400px) {
+.c11 {    margin-right: 0.7%;
+    margin-left: 0.3%;}
+
+.c12 {margin-right: 0.7%;}
+  .manualnumber {
+    left: 32.7%;
+}
+  .classfication2 {
+    margin-left: 26%;
+}
+.text1 {
+    font-size: 1.4em;
+    line-height: 1.7em;
+    width: 1620px;
+    left: 26%;
+}
+  .text2 {
+    width: 1620px;
+    font-size: 1.7em;
+    line-height: 1.6em;
+    left: 26%
+}
 .classfication3 {display: flex; margin-top: 3em; padding-left: 0.5em; position: relative; height: 37vh;margin-bottom:3%;}
 .signimg {position: relative; height: 2200px; width: 100%; }
 .bar { position: absolute; left: 55%; top:10%;}
@@ -502,8 +547,6 @@ z-index: 2;}
 .classfication1 p {font-size: 2.2em; }
 .classfication2 p {font-size: 2.2em; }
   .name {font-size: 2.2em;  }
-  .text1 { font-size: 1.4em; line-height: 1.7em;width: 1620px;}
-  .text2 {width: 1620px; font-size: 1.7em;line-height: 1.6em; }
 .nav2 p {font-size: 3.3em;}
 .signname {margin-left: -1.8em;}
   .nav3 p {font-size: 3.8em;}
@@ -566,7 +609,7 @@ z-index: 2;}
 .aboutp {font-size: 5.8em; margin-left: 0.3em;}
 .flexbox1 {width: 49%;}
 .flexbox2 {font-size: 2.6em; width: 49%; line-height: 121%}
-.last {display: flex; margin-left: 0.3em; justify-content: space-between; font-size: 3.5em;}
+.last {display: flex; margin-left: 0.3em; justify-content: space-between; font-size: 4.8em;}
 .hknu {font-size: 3.8em; margin-left: 0.3em;}
 .stage1 {font-size: 24em; margin-top: 150px; margin-left: 10px;}
 .stage1 img {width: 50%; margin-left: 1250px; margin-bottom: 70px;}
@@ -629,6 +672,12 @@ z-index: 2;}
     overflow: hidden;
     top: -470px;
 }
+.dhtlqch {height: 50vh}
+.dbrclfvh {
+    height: 55vh;
+}
+.vkftlqvh {height: 60vh; margin-bottom: 4%;}
+
 }
 
 
