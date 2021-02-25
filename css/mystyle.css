@@ -143,7 +143,7 @@
 .Hankyong p {
     font-size: 0.8em;
 }
-.Hankyong img {width:370px; }
+.Hankyong img {width: 100%; height: 10%;}
 .last {font-size: 1em;}
 
 .number {font-size: 1.5em;}
@@ -157,7 +157,7 @@
     padding-right: 0.1em;
 }
 .logoimg {
-    width: 350px;
+    width: 100%; height: 10%;
 }
 .classfication1 {
     display: flex;
