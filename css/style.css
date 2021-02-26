@@ -4,16 +4,16 @@ body{font-family: 'Noto Sans KR', sans-serif; overflow:initial;}
 .number{font-size: 2.3em;}
 .classfication1 {display: flex;  margin-top: 1.3em; justify-content: space-around; width: 100%; }
 .classfication1 p {font-size: 1.2em; }
-.classfication2 {display: flex;  margin-top: 1em; margin-left: 26%; position: relative; margin-bottom: 4%;}
+.classfication2 {display: flex;  margin-top: 1em; margin-left: 26.4%; position: relative; margin-bottom: 4%;}
 .classficationbaby {width: 25%; position: absolute; }
-.manualnumber {position: absolute; left: 30%;}
+.manualnumber {position: absolute; left: 32.8%;}
 .classfication2 p {font-size: 1.2em;  }
 .manual {margin-left: -3em;}
 .classfication3 {display: flex; margin-top: 3em; padding-left: 0.5em; position: relative; height: 50vh;}
 .name {font-size: 1.2em; position: relative;}
-.text1 { width: 1000px;font-size: 1em; line-height: 1.7em; position: absolute; left: 26%;}
+.text1 { width: 1000px;font-size: 1em; line-height: 1.7em; position: absolute; left: 26.4%;}
 .text2 {width: 1000px; font-size: 1.1em; line-height: 1.6em; position: absolute; 
-left: 26%; top: 52%; }
+left: 26.4%; top: 52%; }
 .nav2{height: 100px; margin-top: 50px; display: flex; justify-content: space-between; padding: 0.5em; 
 padding-top: 1em; position: relative;}
 .nav2 p {font-size: 2.3em;}
@@ -23,10 +23,10 @@ font-weight: 500;
 font-style: normal;
 
 }
-.c11 {  margin-right: 0.3%;
+.c11 { margin-right: 1.1%;
     margin-left: 0.5%;}
 
-.c12 {margin-right: 3%;}
+.c12 {margin-right: 2.6%;}
   .manualnumber {
     left: 32.7%;
 }
@@ -52,7 +52,7 @@ font-style: normal;
 .clfdhvh {height: 75vh;}
 .tkadhvh {height: 35vh;}
 .vkftlqvh {height: 80vh;}
-.dhtlqch {height: 50vh}
+.dhtlqch {height: 58vh}
 .slider {
   position: relative;
   width: 100%;
@@ -227,53 +227,55 @@ height: 100px;
 z-index: 2;}
 
 .firstbox{height: 1200px;}
-.indextext{display: flex; margin-top: 30px;margin-left: 1em;  line-height: 5.4em;} 
+.indextext{display: flex; margin-top: 30px;margin-left: 0.5em;  line-height: 5.4em;} 
 .indextext p {font-size: 4.5em;}
 .left {margin-right: 5em;}
-.indextext2{display: flex; margin-top: 0.3em;margin-left: 1em;  line-height: 5.4em;} 
+.indextext2{display: flex; margin-top: 0.3em;margin-left: 0.5em;  line-height: 5.4em;} 
 .indextext2 p {font-size: 4.5em;}
 .left2 {margin-right: 7.6em;}
 .left3 {margin-right: 5.6em;}
-.indextext3{display: flex; margin-top: 130px;margin-left: 1em;  line-height: 5.4em;} 
+.indextext3{display: flex; margin-top: 130px;margin-left: 0.5em;  line-height: 5.4em;} 
 .indextext3 p {font-size: 4.5em;}
-.left4 {margin-right: 4.8em;}
+.left4 {margin-right: 4.9em;}
 .indextext4{display: flex; margin-top: 130px;margin-left: 0.4em;  line-height: 5.4em;} 
 .indextext4 img{width: 5%;}
 .indextext4 p {font-size: 4.5em;}
-.left5 {margin-right: 8em; margin-left: 0.2em;}
+.left5 {margin-right: 8.3em; margin-left: 0.2em;}
 .indextext5{display: flex; margin-top: 0.3em;  line-height: 5.4em;} 
 .indextext5 p {font-size: 4.5em;}
-.left6 {margin-right: 8.1em;}
+.left6 {margin-right: 8.24em;}
 .indextext6{display: flex; margin-top: 0.3em;margin-left: 5.7em;  line-height: 5.4em;} 
 .indextext6 p {font-size: 4.5em;}
-.indextextnew {display: flex; margin-top: 130px;margin-left: 1em;  line-height: 5.4em;}
+.indextextnew {display: flex; margin-top: 130px;margin-left: 0.5em; line-height: 5.4em;}
 .indextextnew p {font-size: 4.5em;}
 .leftnew {margin-right: 7.6em;}
-.left7 {margin-right: 8.7em;}
-.indextext7{display: flex; margin-top: 130px;margin-left: 1em;  line-height: 5.4em;} 
+.left7 {margin-right: 8.8em;}
+.indextext7{display: flex; margin-top: 130px; margin-left: 0.5em; line-height: 5.4em;} 
 .indextext7 p {font-size: 4.5em;}
-.left8 {margin-right: 6.2em;}
-.indextext8{display: flex; margin-top: 0.3em;margin-left: 1em;  line-height: 5.4em;} 
+.left8 {margin-right: 6.25em;}
+.indextext8{display: flex; margin-top: 0.3em;margin-left: 0.5em; line-height: 5.4em;} 
 .indextext8 p {font-size: 4.6em;}
-.left9 {margin-right: 5.8em;}
-.left10 {margin-right: 3.6em;}
+.left9 {margin-right: 5.85em;}
+.left10 {margin-right: 3.65em;}
 .indextext9{display: flex; margin-top: 130px;  line-height: 5.4em; justify-content: space-between; } 
 .indextext9 p {font-size: 3.6em;}
 .indextext9p {width: 60%;}
 .indextext9img {width: 100%; position: relative; bottom: 5em; left: 1em; padding-right: 20px;}
-.indextext10{display: flex; margin-top: 0px;margin-left: 1em;  line-height: 5.4em;} 
+.indextext10{display: flex; margin-top: 0px;margin-left: 0.5em;  line-height: 5.4em;} 
 .indextext10 p {font-size: 4.6em;}
-.indextext11{display: flex; margin-top: 150px;margin-left: 45em;  line-height: 5.4em;} 
+.indextext11{display: flex; margin-top: 150px;margin-left: 46.45em;  line-height: 5.4em;} 
 .indextext11 p {font-size: 4.6em;}
 .indextext12{display: flex; margin-top: 130px;margin-left: 1em;  line-height: 5.4em;} 
 .indextext12 p {font-size: 4.6em;}
-.left11 {margin-right: 5.3em;}
-.left12 {margin-right: 7.5em; margin-left: 1.6%;}
-.left13 {margin-right: 7.3em;}
-.left14 {margin-right: 6.6em;}
-.left15 {margin-right: 6.9em;}
-.left16 {margin-right: 7.2em;}
-.left17 {margin-right: 7em;}
+.left11 {margin-right: 5.48em;}
+.left12 {margin-right: 7.8em;
+    margin-left: 1.6%;
+}
+.left13 {margin-right: 7.62em;}
+.left14 {margin-right: 6.93em;}
+.left15 {margin-right: 7.23em;}
+.left16 {margin-right: 7.5em;}
+.left17 {margin-right: 7.3em;}
 .Hankyong {    display: flex;
     margin-top: -9%;
     /* margin-left: 1em; */
@@ -397,8 +399,9 @@ z-index: 2;}
 .classfication2 {margin-left: 26%;}
 .manualnumber {left: 32%}
   .name {font-size: 1.6em; }
-  .text1 { font-size: 1.3em; line-height: 1.7em;width: 1400px;}
-  .text2 {width: 1420px; font-size: 1.4em; line-height: 1.6em; }
+  .text1 { font-size: 1.3em; line-height: 1.7em;width: 1400px;left: 26%; }
+  .text2 {width: 1420px; font-size: 1.4em; line-height: 1.6em; left: 26%; }
+
 .nav2 p {font-size: 3.3em;}
   .nav3 p {font-size: 3.8em;}
   .nav4 p {font-size: 3.8em;}
