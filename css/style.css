@@ -21,7 +21,6 @@ padding-top: 1em; position: relative;}
 font-family: neue-haas-grotesk-display,sans-serif;
 font-weight: 500;
 font-style: normal;
-
 }
 .c11 { margin-right: 1.1%;
     margin-left: 0.5%;}
@@ -227,14 +226,14 @@ height: 100px;
 z-index: 2;}
 
 .firstbox{height: 1200px;}
-.indextext{display: flex; margin-top: 30px;margin-left: 0.5em;  line-height: 5.4em;} 
+.indextext{display: flex; margin-top: 30px;margin-left: 1em;  line-height: 5.4em;} 
 .indextext p {font-size: 4.5em;}
 .left {margin-right: 5em;}
-.indextext2{display: flex; margin-top: 0.3em;margin-left: 0.5em;  line-height: 5.4em;} 
+.indextext2{display: flex; margin-top: 0.3em;margin-left: 1em;  line-height: 5.4em;} 
 .indextext2 p {font-size: 4.5em;}
 .left2 {margin-right: 7.6em;}
 .left3 {margin-right: 5.6em;}
-.indextext3{display: flex; margin-top: 130px;margin-left: 0.5em;  line-height: 5.4em;} 
+.indextext3{display: flex; margin-top: 130px;margin-left: 1em;  line-height: 5.4em;} 
 .indextext3 p {font-size: 4.5em;}
 .left4 {margin-right: 4.9em;}
 .indextext4{display: flex; margin-top: 130px;margin-left: 0.4em;  line-height: 5.4em;} 
@@ -246,22 +245,22 @@ z-index: 2;}
 .left6 {margin-right: 8.24em;}
 .indextext6{display: flex; margin-top: 0.3em;margin-left: 5.7em;  line-height: 5.4em;} 
 .indextext6 p {font-size: 4.5em;}
-.indextextnew {display: flex; margin-top: 130px;margin-left: 0.5em; line-height: 5.4em;}
+.indextextnew {display: flex; margin-top: 130px;margin-left: 1em;  line-height: 5.4em;}
 .indextextnew p {font-size: 4.5em;}
 .leftnew {margin-right: 7.6em;}
 .left7 {margin-right: 8.8em;}
-.indextext7{display: flex; margin-top: 130px; margin-left: 0.5em; line-height: 5.4em;} 
+.indextext7{display: flex; margin-top: 130px;margin-left: 1em;  line-height: 5.4em;} 
 .indextext7 p {font-size: 4.5em;}
 .left8 {margin-right: 6.25em;}
-.indextext8{display: flex; margin-top: 0.3em;margin-left: 0.5em; line-height: 5.4em;} 
+.indextext8{display: flex; margin-top: 0.3em;margin-left: 1em;  line-height: 5.4em;} 
 .indextext8 p {font-size: 4.6em;}
 .left9 {margin-right: 5.85em;}
 .left10 {margin-right: 3.65em;}
-.indextext9{display: flex; margin-top: 130px;  line-height: 5.4em; justify-content: space-between; } 
+.indextext9{display: flex; margin-top: 130px;  line-height: 5.4em; justify-content: space-between; margin-left: 0.5em;} 
 .indextext9 p {font-size: 3.6em;}
 .indextext9p {width: 60%;}
 .indextext9img {width: 100%; position: relative; bottom: 5em; left: 1em; padding-right: 20px;}
-.indextext10{display: flex; margin-top: 0px;margin-left: 0.5em;  line-height: 5.4em;} 
+.indextext10{display: flex; margin-top: 0px;margin-left: 1em;  line-height: 5.4em;} 
 .indextext10 p {font-size: 4.6em;}
 .indextext11{display: flex; margin-top: 150px;margin-left: 46.45em;  line-height: 5.4em;} 
 .indextext11 p {font-size: 4.6em;}
@@ -294,12 +293,12 @@ z-index: 2;}
 .hknu {font-size: 2.8em; margin-left: 0.3em;}
 .stage1 {font-size: 250px;  margin-left: 10px; padding: 0;}
 .stage1 img {width: 48%; margin-left: 730px; margin-bottom: 70px;}
-.stage1rule {font-size: 18em; margin-left: 10px;}
+.stage1rule {font-size: 250px; margin-left: 5px;}
 .humanmade {font-size: 2.5em; margin-left: 0.4em;}
 .ruleimg { margin-bottom: 10%; margin-top: 2%; width: 100%;}
 .ruleimg2 {width: 100%; margin-left: 0.3em;margin-bottom: 10%;}
 .ruleimg3 {width: 100%; margin-left: 0.3em;margin-bottom: 7%;}
-.bigtext {font-size: 18em; display: flex; margin-top: 70px; justify-content: space-between;}
+.bigtext {font-size: 250px; display: flex; margin-top: 70px; justify-content: space-between;}
 .pa1 {width: 80%; margin-top: 70px; margin-left: 10%; }
 .pa2 {width: 78%; margin-top: 70px; margin-left: 10%; margin-top: 3%;  }
 .stage2img{width: 80%; margin-left: 10%; margin-bottom: 120px;}
